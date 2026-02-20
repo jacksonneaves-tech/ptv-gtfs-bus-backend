@@ -1,6 +1,5 @@
 import express from "express";
 import fetch from "node-fetch";
-import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -11,33 +10,39 @@ const GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
 
 app.get("/", (req, res) => {
-  res.send("GTFS Bus Backend Running");
+  res.send("Debug Server Running");
 });
 
 app.get("/debug", async (req, res) => {
   try {
     const response = await fetch(GTFS_URL, {
-      headers: { "KeyId": API_KEY }
+      headers: {
+        "KeyId": API_KEY
+      }
     });
 
-    const buffer = await response.arrayBuffer();
+    const status = response.status;
+    const contentType = response.headers.get("content-type");
 
-    const feed =
-      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
-        new Uint8Array(buffer)
-      );
+    let preview;
+    try {
+      preview = await response.text();
+      preview = preview.substring(0, 500);
+    } catch (e) {
+      preview = "Could not read body";
+    }
 
-    const sample = feed.entity.slice(0, 10).map(e => ({
-      vehicleId: e.vehicle?.vehicle?.id,
-      vehicleLabel: e.vehicle?.vehicle?.label,
-      routeId: e.vehicle?.trip?.routeId
-    }));
+    res.json({
+      status,
+      contentType,
+      bodyPreview: preview
+    });
 
-    res.json(sample);
-
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "debug_failed" });
+  } catch (error) {
+    res.status(500).json({
+      error: "fetch_failed",
+      message: error.message
+    });
   }
 });
 
