@@ -51,19 +51,6 @@ GET BUS LOCATION
 */
 app.get("/bus/:fleet/:operator", async (req, res) => {
   try {
-    const fleet = req.params.fleet.trim();
-    const operator = req.params.operator.trim();
-
-    const match = fleetMap.find(
-      b =>
-        String(b.fleet).trim() === fleet &&
-        b.operator === operator
-    );
-
-    if (!match) {
-      return res.json({ error: "fleet_not_found" });
-    }
-
     const response = await fetch(GTFS_URL, {
       headers: { KeyId: API_KEY }
     });
@@ -75,26 +62,13 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    const allVehicleIds = feed.entity
-      .filter(e => e.vehicle)
-      .map(e => e.vehicle.vehicle?.id);
+    const totalEntities = feed.entity.length;
+    const vehicleEntities = feed.entity.filter(e => e.vehicle).length;
 
-    const vehicle = feed.entity
-      .filter(e => e.vehicle)
-      .find(e =>
-        e.vehicle.vehicle?.id?.toUpperCase().trim() ===
-        match.rego.toUpperCase().trim()
-      );
-
-    if (!vehicle) {
-      return res.json({
-        error: "bus_not_active",
-        searchingForRego: match.rego,
-        sampleActiveRegos: allVehicleIds.slice(0, 20)
-      });
-    }
-
-    res.json({ success: true });
+    res.json({
+      totalEntities,
+      vehicleEntities
+    });
 
   } catch (error) {
     res.status(500).json({ error: "server_error" });
