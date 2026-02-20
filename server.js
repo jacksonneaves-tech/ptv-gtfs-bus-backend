@@ -1,9 +1,16 @@
 import express from "express";
 import fetch from "node-fetch";
 import fs from "fs";
+import cors from "cors";
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 
 const app = express();
+
+// ✅ Enable CORS for all origins
+app.use(cors({
+  origin: "*"
+}));
+
 const PORT = process.env.PORT || 3000;
 
 const API_KEY = "1a9699bf-54d2-42a4-a170-5416f7f6993a";
@@ -15,27 +22,22 @@ const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
 
-// Step 1: Find operators for fleet
+// Get operators for a fleet number
 app.get("/operators/:fleet", (req, res) => {
   const fleet = req.params.fleet.trim();
-
-  const matches = fleetMap.filter(
-    b => b.fleet === fleet
-  );
+  const matches = fleetMap.filter(b => b.fleet === fleet);
 
   if (matches.length === 0) {
     return res.json({ error: "fleet_not_found" });
   }
 
-  const operators = matches.map(b => b.operator);
-
   res.json({
     fleet,
-    operators
+    operators: matches.map(b => b.operator)
   });
 });
 
-// Step 2: Get bus by fleet + operator
+// Get bus location
 app.get("/bus/:fleet/:operator", async (req, res) => {
   try {
     const fleet = req.params.fleet.trim();
