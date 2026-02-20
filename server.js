@@ -51,6 +51,20 @@ GET BUS LOCATION
 */
 app.get("/bus/:fleet/:operator", async (req, res) => {
   try {
+    const fleet = req.params.fleet.trim();
+    const operator = req.params.operator.trim().toLowerCase();
+
+    // 🔎 Find fleet + operator match in JSON
+    const match = fleetMap.find(
+      b =>
+        String(b.fleet).trim() === fleet &&
+        b.operator.toLowerCase() === operator
+    );
+
+    if (!match) {
+      return res.json({ error: "fleet_not_found" });
+    }
+
     const response = await fetch(GTFS_URL, {
       headers: { KeyId: API_KEY }
     });
@@ -62,20 +76,38 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    const activeRegos = feed.entity
-      .filter(e => e.vehicle)
-      .map(e => e.vehicle.vehicle?.id)
-      .slice(0, 100); // first 100 only
+    // ✅ Normalize regos (removes leading zeros)
+    const normalize = (rego) =>
+      rego?.toUpperCase().replace(/^0+/, "");
+
+    const vehicle = feed.entity.find(e =>
+      e.vehicle &&
+      e.vehicle.vehicle &&
+      normalize(e.vehicle.vehicle.id) === normalize(match.rego)
+    );
+
+    if (!vehicle) {
+      return res.json({
+        error: "bus_not_active",
+        searchingForRego: match.rego
+      });
+    }
 
     res.json({
-      sampleActiveRegos: activeRegos
+      fleet,
+      operator: match.operator,
+      rego: match.rego,
+      routeId: vehicle.vehicle.trip?.routeId || null,
+      latitude: vehicle.vehicle.position?.latitude,
+      longitude: vehicle.vehicle.position?.longitude,
+      timestamp: vehicle.vehicle.timestamp
     });
 
   } catch (error) {
+    console.error(error);
     res.status(500).json({ error: "server_error" });
   }
 });
-
 /*
 ----------------------------------------
 START SERVER
