@@ -11,25 +11,43 @@ const API_KEY = "1a9699bf-54d2-42a4-a170-5416f7f6993a";
 const GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
 
-// Load fleet mapping file
 const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
 
-app.get("/bus/:fleetNumber", async (req, res) => {
-  try {
-    const fleetNumber = req.params.fleetNumber.trim();
+// Step 1: Find operators for fleet
+app.get("/operators/:fleet", (req, res) => {
+  const fleet = req.params.fleet.trim();
 
-    // Find registration from fleet map
+  const matches = fleetMap.filter(
+    b => b.fleet === fleet
+  );
+
+  if (matches.length === 0) {
+    return res.json({ error: "fleet_not_found" });
+  }
+
+  const operators = matches.map(b => b.operator);
+
+  res.json({
+    fleet,
+    operators
+  });
+});
+
+// Step 2: Get bus by fleet + operator
+app.get("/bus/:fleet/:operator", async (req, res) => {
+  try {
+    const fleet = req.params.fleet.trim();
+    const operator = req.params.operator.trim();
+
     const match = fleetMap.find(
-      b => b.fleet === fleetNumber
+      b => b.fleet === fleet && b.operator === operator
     );
 
     if (!match) {
       return res.json({ error: "fleet_not_found" });
     }
-
-    const registration = match.rego;
 
     const response = await fetch(GTFS_URL, {
       headers: { KeyId: API_KEY }
@@ -44,19 +62,26 @@ app.get("/bus/:fleetNumber", async (req, res) => {
 
     const vehicle = feed.entity
       .filter(e => e.vehicle)
-      .find(e => e.vehicle.vehicle?.id === registration);
+      .find(e => e.vehicle.vehicle?.id === match.rego);
 
     if (!vehicle) {
       return res.json({ error: "bus_not_active" });
     }
 
+    const timestamp = vehicle.vehicle.timestamp?.low || 0;
+    const now = Math.floor(Date.now() / 1000);
+
+    const isLive = now - timestamp < 120;
+
     res.json({
-      fleetNumber,
-      registration,
+      fleet,
+      operator,
+      registration: match.rego,
       routeId: vehicle.vehicle.trip?.routeId,
       latitude: vehicle.vehicle.position?.latitude,
       longitude: vehicle.vehicle.position?.longitude,
-      timestamp: vehicle.vehicle.timestamp?.low
+      timestamp,
+      live: isLive
     });
 
   } catch (error) {
