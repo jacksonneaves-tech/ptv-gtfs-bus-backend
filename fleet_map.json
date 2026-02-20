@@ -1,0 +1,8982 @@
+[
+  {
+    "fleet": 284,
+    "rego": "0942AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 390,
+    "rego": "2158AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 760,
+    "rego": "3147AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 761,
+    "rego": "3151AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 392,
+    "rego": "4235AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 391,
+    "rego": "4237AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 318,
+    "rego": "4244AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 393,
+    "rego": "4287AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 362,
+    "rego": "4312AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 762,
+    "rego": "4600AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 296,
+    "rego": "5426AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 297,
+    "rego": "5428AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 300,
+    "rego": "5456AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 301,
+    "rego": "5457AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 302,
+    "rego": "5458AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 303,
+    "rego": "5459AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 304,
+    "rego": "5460AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 320,
+    "rego": "6019AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 321,
+    "rego": "6024AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 349,
+    "rego": "6056AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 363,
+    "rego": "6166AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 476,
+    "rego": "6906AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 477,
+    "rego": "6936AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 861,
+    "rego": "7105AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 478,
+    "rego": "7321AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 483,
+    "rego": "7322AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 482,
+    "rego": "7324AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 479,
+    "rego": "7334AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 481,
+    "rego": "7336AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 809,
+    "rego": "7379AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 780,
+    "rego": "7396AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 487,
+    "rego": "7452AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 485,
+    "rego": "7453AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 486,
+    "rego": "7454AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 488,
+    "rego": "7455AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 781,
+    "rego": "7866AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 494,
+    "rego": "7949AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 495,
+    "rego": "7950AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 496,
+    "rego": "7951AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 497,
+    "rego": "7952AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 498,
+    "rego": "7962AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 499,
+    "rego": "7963AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 700,
+    "rego": "7964AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 702,
+    "rego": "8025AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 703,
+    "rego": "8026AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 704,
+    "rego": "8027AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 782,
+    "rego": "8228AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 783,
+    "rego": "8229AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 716,
+    "rego": "8394AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 718,
+    "rego": "8395AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 717,
+    "rego": "8396AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 784,
+    "rego": "8423AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 732,
+    "rego": "9142AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 733,
+    "rego": "9143AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 734,
+    "rego": "9144AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 785,
+    "rego": "9269AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 786,
+    "rego": "9270AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 787,
+    "rego": "9271AO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 816,
+    "rego": "BS00AE",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 817,
+    "rego": "BS00AF",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 889,
+    "rego": "BS01QI",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 890,
+    "rego": "BS01QJ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 897,
+    "rego": "BS01QM",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 898,
+    "rego": "BS01QN",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 899,
+    "rego": "BS01QO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 900,
+    "rego": "BS01QP",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 906,
+    "rego": "BS01QQ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 907,
+    "rego": "BS01QR",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 911,
+    "rego": "BS01QS",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 912,
+    "rego": "BS01QT",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 914,
+    "rego": "BS01QU",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 913,
+    "rego": "BS01QV",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 917,
+    "rego": "BS01QY",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 918,
+    "rego": "BS01QZ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 919,
+    "rego": "BS01RA",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 920,
+    "rego": "BS01RB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 921,
+    "rego": "BS01RC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 922,
+    "rego": "BS01RD",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 923,
+    "rego": "BS01RE",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 894,
+    "rego": "BS01VY",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 927,
+    "rego": "BS02GY",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 928,
+    "rego": "BS02GZ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 929,
+    "rego": "BS02HA",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 930,
+    "rego": "BS02HB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 931,
+    "rego": "BS02HC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 932,
+    "rego": "BS02HD",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 933,
+    "rego": "BS02HE",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 934,
+    "rego": "BS02HF",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 935,
+    "rego": "BS02HG",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 936,
+    "rego": "BS02HH",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 943,
+    "rego": "BS02JP",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 944,
+    "rego": "BS02JQ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 945,
+    "rego": "BS02JR",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 946,
+    "rego": "BS02JS",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 947,
+    "rego": "BS02JT",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 948,
+    "rego": "BS02JU",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 949,
+    "rego": "BS02JV",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 950,
+    "rego": "BS02JW",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 961,
+    "rego": "BS02JX",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 960,
+    "rego": "BS02JY",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 959,
+    "rego": "BS02JZ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 958,
+    "rego": "BS02KA",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1023,
+    "rego": "BS02YC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1024,
+    "rego": "BS02YD",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1030,
+    "rego": "BS03CJ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1031,
+    "rego": "BS03CK",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1033,
+    "rego": "BS03CM",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1034,
+    "rego": "BS03CN",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1035,
+    "rego": "BS03CO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1036,
+    "rego": "BS03CP",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1037,
+    "rego": "BS03CQ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1038,
+    "rego": "BS03CR",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1039,
+    "rego": "BS03CS",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1040,
+    "rego": "BS03CT",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1041,
+    "rego": "BS03CU",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1047,
+    "rego": "BS03QA",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1049,
+    "rego": "BS03QB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1050,
+    "rego": "BS03QC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1032,
+    "rego": "BS03US",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 480,
+    "rego": "BS03UT",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1078,
+    "rego": "BS04GQ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1079,
+    "rego": "BS04GR",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1081,
+    "rego": "BS04GT",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1082,
+    "rego": "BS04GU",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1083,
+    "rego": "BS04GV",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1084,
+    "rego": "BS04GW",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1085,
+    "rego": "BS04IZ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1086,
+    "rego": "BS04JA",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1087,
+    "rego": "BS04JB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1089,
+    "rego": "BS04JD",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1088,
+    "rego": "BS04JS",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1108,
+    "rego": "BS04ZI",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1109,
+    "rego": "BS04ZJ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1110,
+    "rego": "BS04ZK",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1112,
+    "rego": "BS04ZL",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1113,
+    "rego": "BS04ZM",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1114,
+    "rego": "BS04ZN",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1115,
+    "rego": "BS04ZO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1116,
+    "rego": "BS04ZP",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1122,
+    "rego": "BS05NP",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1123,
+    "rego": "BS05NQ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1124,
+    "rego": "BS05NR",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1125,
+    "rego": "BS05NS",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1126,
+    "rego": "BS05NT",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1193,
+    "rego": "BS06JA",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1194,
+    "rego": "BS06JB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1195,
+    "rego": "BS06JC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1206,
+    "rego": "BS06JD",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1207,
+    "rego": "BS06JE",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1208,
+    "rego": "BS06JF",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1209,
+    "rego": "BS06JG",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1210,
+    "rego": "BS06JH",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1211,
+    "rego": "BS06JI",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1212,
+    "rego": "BS06JJ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1213,
+    "rego": "BS06JK",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1214,
+    "rego": "BS06JL",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1215,
+    "rego": "BS06JM",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1216,
+    "rego": "BS06JN",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1262,
+    "rego": "BS07GR",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1263,
+    "rego": "BS07GS",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 360,
+    "rego": "BS10IT",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1346,
+    "rego": "BS11TZ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 364,
+    "rego": "BS13LZ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 701,
+    "rego": "BS13MB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 116,
+    "rego": "6138AO",
+    "operator": "CDC"
+  },
+  {
+    "fleet": 100,
+    "rego": "BS00BH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 101,
+    "rego": "BS00BI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 102,
+    "rego": "BS00BJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 103,
+    "rego": "BS00RZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 104,
+    "rego": "BS00SA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 105,
+    "rego": "BS00SW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 106,
+    "rego": "BS00SX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 107,
+    "rego": "BS00SY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 108,
+    "rego": "BS00SZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 109,
+    "rego": "BS01GN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 110,
+    "rego": "BS01GO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 111,
+    "rego": "BS01GP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 112,
+    "rego": "BS01GQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 113,
+    "rego": "BS01GR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 114,
+    "rego": "BS01GS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 115,
+    "rego": "BS01GT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 116,
+    "rego": "BS01GU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 117,
+    "rego": "BS00TA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 118,
+    "rego": "BS00TB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 119,
+    "rego": "BS02AX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 120,
+    "rego": "BS02AY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 121,
+    "rego": "BS02LJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 122,
+    "rego": "BS02LK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 123,
+    "rego": "BS02LL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 124,
+    "rego": "BS02LM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 125,
+    "rego": "BS02LN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 126,
+    "rego": "BS02LO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 127,
+    "rego": "BS02LP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 128,
+    "rego": "BS02LS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 129,
+    "rego": "BS02UX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 130,
+    "rego": "BS02UY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 131,
+    "rego": "BS02UZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 132,
+    "rego": "BS02VA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 133,
+    "rego": "BS02VB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 134,
+    "rego": "BS03KW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 135,
+    "rego": "BS03KS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 136,
+    "rego": "BS03KT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 137,
+    "rego": "BS03KU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 138,
+    "rego": "BS03KV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 139,
+    "rego": "BS03KX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 140,
+    "rego": "BS03KY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 141,
+    "rego": "BS03KZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 142,
+    "rego": "BS03LA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 143,
+    "rego": "BS03LB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 144,
+    "rego": "BS03LC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 145,
+    "rego": "BS03LD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 146,
+    "rego": "BS03LE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 147,
+    "rego": "BS03LF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 148,
+    "rego": "BS03LG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 149,
+    "rego": "BS03LH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 150,
+    "rego": "BS03LI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 151,
+    "rego": "BS03LJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 152,
+    "rego": "BS03LK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 153,
+    "rego": "BS03LL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 154,
+    "rego": "BS03LM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 155,
+    "rego": "BS03LN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 156,
+    "rego": "BS03LO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 157,
+    "rego": "BS03LP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 158,
+    "rego": "BS03LQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 159,
+    "rego": "BS03LR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 160,
+    "rego": "BS03LS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 161,
+    "rego": "BS03LT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 162,
+    "rego": "BS03LU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 163,
+    "rego": "BS03LV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 164,
+    "rego": "BS03KN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 165,
+    "rego": "BS03KO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 166,
+    "rego": "BS03KP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 167,
+    "rego": "BS03KQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 168,
+    "rego": "BS03KR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 169,
+    "rego": "BS03WD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 170,
+    "rego": "BS03WE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 171,
+    "rego": "BS03WF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 172,
+    "rego": "BS03WG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 173,
+    "rego": "BS03WH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 174,
+    "rego": "BS03WI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 175,
+    "rego": "BS03WJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 176,
+    "rego": "BS03WK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 177,
+    "rego": "BS03WL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 178,
+    "rego": "BS03WT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 179,
+    "rego": "BS03WU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 180,
+    "rego": "BS03WV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 181,
+    "rego": "BS03WW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 182,
+    "rego": "BS04JN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 183,
+    "rego": "BS05FL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 201,
+    "rego": "1460AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 202,
+    "rego": "1431AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 203,
+    "rego": "1441AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 204,
+    "rego": "BS02IQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 205,
+    "rego": "BS02IR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 206,
+    "rego": "BS03CC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 207,
+    "rego": "BS06JX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 208,
+    "rego": "BS06JY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 209,
+    "rego": "BS07GH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 210,
+    "rego": "BS07OD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 211,
+    "rego": "BS12UH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 212,
+    "rego": "BS12US",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 213,
+    "rego": "BS12UU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 214,
+    "rego": "BS12UI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 215,
+    "rego": "BS12UY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 216,
+    "rego": "BS12UP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 217,
+    "rego": "BS12UF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 218,
+    "rego": "BS12UE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 219,
+    "rego": "BS12UD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 220,
+    "rego": "BS12UO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 221,
+    "rego": "BS12UT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 222,
+    "rego": "BS12UC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 223,
+    "rego": "BS12BQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 224,
+    "rego": "8391AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 373,
+    "rego": "0373AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 374,
+    "rego": "0374AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 375,
+    "rego": "0375AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 376,
+    "rego": "4080AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 382,
+    "rego": "5282AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 383,
+    "rego": "5283AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 385,
+    "rego": "5285AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 386,
+    "rego": "5286AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 387,
+    "rego": "5287AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 388,
+    "rego": "5288AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 389,
+    "rego": "5289AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 390,
+    "rego": "5290AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 391,
+    "rego": "5291AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 392,
+    "rego": "5292AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 393,
+    "rego": "5293AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 394,
+    "rego": "5294AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 395,
+    "rego": "5295AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 396,
+    "rego": "5296AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 397,
+    "rego": "5297AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 398,
+    "rego": "5298AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 399,
+    "rego": "5299AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 400,
+    "rego": "5900AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 401,
+    "rego": "5901AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 402,
+    "rego": "5902AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 403,
+    "rego": "5903AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 404,
+    "rego": "5904AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 405,
+    "rego": "5905AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 406,
+    "rego": "5906AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 407,
+    "rego": "5907AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 408,
+    "rego": "5908AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 409,
+    "rego": "5909AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 410,
+    "rego": "5910AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 411,
+    "rego": "5911AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 412,
+    "rego": "5912AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 413,
+    "rego": "5913AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 414,
+    "rego": "5914AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 415,
+    "rego": "5915AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 416,
+    "rego": "5916AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 418,
+    "rego": "7518AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 419,
+    "rego": "7519AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 420,
+    "rego": "7520AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 421,
+    "rego": "7521AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 422,
+    "rego": "7522AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 423,
+    "rego": "7523AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 424,
+    "rego": "7824AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 425,
+    "rego": "7825AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 426,
+    "rego": "7826AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 427,
+    "rego": "7827AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 428,
+    "rego": "7828AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 429,
+    "rego": "7829AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 430,
+    "rego": "7830AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 431,
+    "rego": "7831AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 432,
+    "rego": "7832AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 433,
+    "rego": "7833AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 434,
+    "rego": "7834AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 435,
+    "rego": "7835AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 436,
+    "rego": "9036AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 437,
+    "rego": "9037AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 438,
+    "rego": "9038AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 439,
+    "rego": "9039AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 440,
+    "rego": "9040AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 441,
+    "rego": "9041AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 503,
+    "rego": "BS12GV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 504,
+    "rego": "BS13GI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 505,
+    "rego": "XW31TR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 506,
+    "rego": "BS11KQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 507,
+    "rego": "BS11KU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 508,
+    "rego": "BS13GK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 509,
+    "rego": "BS13GG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 590,
+    "rego": "6854AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 591,
+    "rego": "6855AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 592,
+    "rego": "6856AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 593,
+    "rego": "6857AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 594,
+    "rego": "6858AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 595,
+    "rego": "6859AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 596,
+    "rego": "6860AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 597,
+    "rego": "6861AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 598,
+    "rego": "6862AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 599,
+    "rego": "6863AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 600,
+    "rego": "6864AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 601,
+    "rego": "6865AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 602,
+    "rego": "7225AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 603,
+    "rego": "7226AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 604,
+    "rego": "7227AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 605,
+    "rego": "7228AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 606,
+    "rego": "7229AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 607,
+    "rego": "7230AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 608,
+    "rego": "7231AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 609,
+    "rego": "7232AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 610,
+    "rego": "7233AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 611,
+    "rego": "7234AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 612,
+    "rego": "7235AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 613,
+    "rego": "7236AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 614,
+    "rego": "7237AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 615,
+    "rego": "7238AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 616,
+    "rego": "7239AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 617,
+    "rego": "7240AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 618,
+    "rego": "7241AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 619,
+    "rego": "7242AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 620,
+    "rego": "7243AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 621,
+    "rego": "7244AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 623,
+    "rego": "7246AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 624,
+    "rego": "7247AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 625,
+    "rego": "7248AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 626,
+    "rego": "7249AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 628,
+    "rego": "7251AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 629,
+    "rego": "7252AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 630,
+    "rego": "7253AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 631,
+    "rego": "7254AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 632,
+    "rego": "7255AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 633,
+    "rego": "7256AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 634,
+    "rego": "7257AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 636,
+    "rego": "7259AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 637,
+    "rego": "7260AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 638,
+    "rego": "7261AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 639,
+    "rego": "7262AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 640,
+    "rego": "7263AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 642,
+    "rego": "7265AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 643,
+    "rego": "7266AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 644,
+    "rego": "7267AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 645,
+    "rego": "7268AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 646,
+    "rego": "7269AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 647,
+    "rego": "7270AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 648,
+    "rego": "7271AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 649,
+    "rego": "7272AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 651,
+    "rego": "7274AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 654,
+    "rego": "7277AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 655,
+    "rego": "7278AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 656,
+    "rego": "7279AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 658,
+    "rego": "7281AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 659,
+    "rego": "7282AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 660,
+    "rego": "7283AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 661,
+    "rego": "7284AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 662,
+    "rego": "7285AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 663,
+    "rego": "7286AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 664,
+    "rego": "7287AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 665,
+    "rego": "7288AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 666,
+    "rego": "7289AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 667,
+    "rego": "7290AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 668,
+    "rego": "7291AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 669,
+    "rego": "7292AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 670,
+    "rego": "7293AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 682,
+    "rego": "7972AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 683,
+    "rego": "7973AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 684,
+    "rego": "7974AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 685,
+    "rego": "7975AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 686,
+    "rego": "7971AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 761,
+    "rego": "8001AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 762,
+    "rego": "8002AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 802,
+    "rego": "8243AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 803,
+    "rego": "1812AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 914,
+    "rego": "6516AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 915,
+    "rego": "6517AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 916,
+    "rego": "6518AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 917,
+    "rego": "6519AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 918,
+    "rego": "6520AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 919,
+    "rego": "6521AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 920,
+    "rego": "6522AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 921,
+    "rego": "6523AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 922,
+    "rego": "6524AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 923,
+    "rego": "6526AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 924,
+    "rego": "6528AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 925,
+    "rego": "6529AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 934,
+    "rego": "7855AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 935,
+    "rego": "7729AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 936,
+    "rego": "7836AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 937,
+    "rego": "7822AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 938,
+    "rego": "7931AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 939,
+    "rego": "7802AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 940,
+    "rego": "7803AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 941,
+    "rego": "7804AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 942,
+    "rego": "7806AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 943,
+    "rego": "7868AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 944,
+    "rego": "7941AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 945,
+    "rego": "7856AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 946,
+    "rego": "7932AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 947,
+    "rego": "7869AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 948,
+    "rego": "7874AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 949,
+    "rego": "7933AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 950,
+    "rego": "7934AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 951,
+    "rego": "7940AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 952,
+    "rego": "8031AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 953,
+    "rego": "8030AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 954,
+    "rego": "8032AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 955,
+    "rego": "8035AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 956,
+    "rego": "8036AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 957,
+    "rego": "8037AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 958,
+    "rego": "8038AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 959,
+    "rego": "8044AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 960,
+    "rego": "8045AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 961,
+    "rego": "8046AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 964,
+    "rego": "7311AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 965,
+    "rego": "8039AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 966,
+    "rego": "8040AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 967,
+    "rego": "8041AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 968,
+    "rego": "8042AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 969,
+    "rego": "8043AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 970,
+    "rego": "8252AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 971,
+    "rego": "8259AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 972,
+    "rego": "8253AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 973,
+    "rego": "8254AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 974,
+    "rego": "8256AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 975,
+    "rego": "8257AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 976,
+    "rego": "8255AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 977,
+    "rego": "8258AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 994,
+    "rego": "9100AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 995,
+    "rego": "9101AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 996,
+    "rego": "9102AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 997,
+    "rego": "9103AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 998,
+    "rego": "9104AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1101,
+    "rego": "BS05BY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1102,
+    "rego": "BS05CE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1103,
+    "rego": "BS05BZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1104,
+    "rego": "BS05CA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1105,
+    "rego": "BS05CB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1106,
+    "rego": "BS05CC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1107,
+    "rego": "BS05CD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1108,
+    "rego": "BS05CF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1109,
+    "rego": "BS05CG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1110,
+    "rego": "BS05CH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1111,
+    "rego": "BS05CI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1112,
+    "rego": "BS05CJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1113,
+    "rego": "BS05CK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1114,
+    "rego": "BS05CL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1115,
+    "rego": "BS05CM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1116,
+    "rego": "BS05CN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1117,
+    "rego": "BS05CO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1118,
+    "rego": "BS05AA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1119,
+    "rego": "BS05AB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1120,
+    "rego": "BS05AC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1121,
+    "rego": "BS05CP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1122,
+    "rego": "BS05CQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1123,
+    "rego": "BS05CR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1124,
+    "rego": "BS05CS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1125,
+    "rego": "BS05CT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1126,
+    "rego": "BS05CU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1127,
+    "rego": "BS05CV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1128,
+    "rego": "BS05AD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1129,
+    "rego": "BS05AE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1130,
+    "rego": "BS05AF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1131,
+    "rego": "BS05AG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1132,
+    "rego": "BS05AH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1133,
+    "rego": "BS05AI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1134,
+    "rego": "BS05AJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1135,
+    "rego": "BS05DT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1136,
+    "rego": "BS05DU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1137,
+    "rego": "BS05DV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1138,
+    "rego": "BS05CW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1139,
+    "rego": "BS05CX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1140,
+    "rego": "BS05CY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1141,
+    "rego": "BS05CZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1142,
+    "rego": "BS05DA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1143,
+    "rego": "BS05DB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1144,
+    "rego": "BS05DC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1145,
+    "rego": "BS05DD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1146,
+    "rego": "BS05DE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1147,
+    "rego": "BS05DF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1148,
+    "rego": "BS05DG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1149,
+    "rego": "BS05DH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1150,
+    "rego": "BS05DI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1151,
+    "rego": "BS05DJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1152,
+    "rego": "BS05DK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1153,
+    "rego": "BS05DL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1154,
+    "rego": "BS05DM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1155,
+    "rego": "BS05DN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1156,
+    "rego": "BS05DO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1157,
+    "rego": "BS05DP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1158,
+    "rego": "BS05DQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1159,
+    "rego": "BS05DR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1160,
+    "rego": "BS05DS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1161,
+    "rego": "BS05AK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1162,
+    "rego": "BS05AL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1163,
+    "rego": "BS05AM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1164,
+    "rego": "BS05AN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1165,
+    "rego": "BS05AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1166,
+    "rego": "BS05AP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1167,
+    "rego": "BS05AQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1168,
+    "rego": "BS05AR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1169,
+    "rego": "BS05AS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1170,
+    "rego": "BS05AT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1171,
+    "rego": "BS05AU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1172,
+    "rego": "BS05AV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1173,
+    "rego": "BS05AW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1174,
+    "rego": "BS05AX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1175,
+    "rego": "BS05AY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1176,
+    "rego": "BS05AZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1177,
+    "rego": "BS05BA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1178,
+    "rego": "BS05BB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1179,
+    "rego": "BS05BC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1180,
+    "rego": "BS05BD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1181,
+    "rego": "BS05BE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1182,
+    "rego": "BS05BF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1183,
+    "rego": "BS05BG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1184,
+    "rego": "BS05BH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1185,
+    "rego": "BS05BI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1186,
+    "rego": "BS05BJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1187,
+    "rego": "BS05BK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1188,
+    "rego": "BS05BL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1189,
+    "rego": "BS05BM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1190,
+    "rego": "BS05BN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1191,
+    "rego": "BS05BO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1192,
+    "rego": "BS05BP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1193,
+    "rego": "BS05BQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1194,
+    "rego": "BS05BR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1195,
+    "rego": "BS05BS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1196,
+    "rego": "BS05BT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1197,
+    "rego": "BS05BU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1198,
+    "rego": "BS05BV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1199,
+    "rego": "BS05BW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1200,
+    "rego": "BS05BX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1201,
+    "rego": "BS06SQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1202,
+    "rego": "BS06SR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1203,
+    "rego": "BS06SS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1204,
+    "rego": "BS06ST",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1205,
+    "rego": "BS06SU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 1206,
+    "rego": "BS06SV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 2000,
+    "rego": "8033AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 2001,
+    "rego": "8034AO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3001,
+    "rego": "BS07MT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3002,
+    "rego": "BS07MU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3003,
+    "rego": "BS07OJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3004,
+    "rego": "BS07NU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3005,
+    "rego": "BS07NV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3006,
+    "rego": "BS07NW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3007,
+    "rego": "BS07IH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3008,
+    "rego": "BS08AE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3009,
+    "rego": "BS08AF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3010,
+    "rego": "BS08NB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3011,
+    "rego": "BS08NC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3012,
+    "rego": "BS08ND",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3013,
+    "rego": "BS09KB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3014,
+    "rego": "BS09KC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3015,
+    "rego": "BS09KD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3016,
+    "rego": "BS10OJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3017,
+    "rego": "BS10SA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3018,
+    "rego": "BS10SB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3019,
+    "rego": "BS11NS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3020,
+    "rego": "BS11NT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3021,
+    "rego": "BS11NU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3022,
+    "rego": "BS11NV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3023,
+    "rego": "BS11NW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3024,
+    "rego": "BS11NX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3025,
+    "rego": "BS11GS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3026,
+    "rego": "BS11GT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3027,
+    "rego": "BS11GR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3028,
+    "rego": "BS11GG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3029,
+    "rego": "BS11PI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3030,
+    "rego": "BS11UW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3031,
+    "rego": "BS11LV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3032,
+    "rego": "BS11UO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3033,
+    "rego": "BS12IA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3034,
+    "rego": "BS12IJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3035,
+    "rego": "BS12JA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3036,
+    "rego": "BS12JM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 3037,
+    "rego": "BS12RR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4000,
+    "rego": "BS07OK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4001,
+    "rego": "BS07VA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4002,
+    "rego": "BS07VC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4003,
+    "rego": "BS07OL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4004,
+    "rego": "BS07XL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4005,
+    "rego": "BS07VD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4006,
+    "rego": "BS07VE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4007,
+    "rego": "BS07VF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4008,
+    "rego": "BS07VG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4009,
+    "rego": "BS07VH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4010,
+    "rego": "BS07VR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4011,
+    "rego": "BS07OM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4012,
+    "rego": "BS07ON",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4013,
+    "rego": "BS07OO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4014,
+    "rego": "BS07OP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4015,
+    "rego": "BS07VB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4016,
+    "rego": "BS07VI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4017,
+    "rego": "BS07VK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4018,
+    "rego": "BS07VL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4019,
+    "rego": "BS07VM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4020,
+    "rego": "BS07VN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4021,
+    "rego": "BS07VO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4022,
+    "rego": "BS07VP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4023,
+    "rego": "BS07VQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4024,
+    "rego": "BS07VJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4025,
+    "rego": "BS07VU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4026,
+    "rego": "BS07VX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4027,
+    "rego": "BS07WY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4028,
+    "rego": "BS07VV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4029,
+    "rego": "BS07VW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4030,
+    "rego": "BS07VS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4031,
+    "rego": "BS07WZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4032,
+    "rego": "BS07XA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4033,
+    "rego": "BS07VY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4034,
+    "rego": "BS07XC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4035,
+    "rego": "BS07XB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4036,
+    "rego": "BS07XI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4037,
+    "rego": "BS07XJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4038,
+    "rego": "BS07XD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4039,
+    "rego": "BS07XF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4040,
+    "rego": "BS07XE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4041,
+    "rego": "BS07XK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4042,
+    "rego": "BS07XM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4043,
+    "rego": "BS07XN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4044,
+    "rego": "BS07XO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4045,
+    "rego": "BS07XP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4046,
+    "rego": "BS07XQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4047,
+    "rego": "BS07XR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4048,
+    "rego": "BS07XS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4049,
+    "rego": "BS07XG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4050,
+    "rego": "BS07XH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4051,
+    "rego": "BS07VT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4052,
+    "rego": "BS07XV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4053,
+    "rego": "BS07XU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4054,
+    "rego": "BS07YJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4055,
+    "rego": "BS07YK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4056,
+    "rego": "BS07YL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4057,
+    "rego": "BS07YM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4058,
+    "rego": "BS07YN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4059,
+    "rego": "BS07YO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4060,
+    "rego": "BS07YP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4061,
+    "rego": "BS07YQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4062,
+    "rego": "BS07YR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4063,
+    "rego": "BS07YS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4064,
+    "rego": "BS07XY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4065,
+    "rego": "BS07XZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4066,
+    "rego": "BS07YA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4067,
+    "rego": "BS07YB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4068,
+    "rego": "BS07YC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4069,
+    "rego": "BS07YD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4070,
+    "rego": "BS07YE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4071,
+    "rego": "BS07YF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4072,
+    "rego": "BS07YG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4073,
+    "rego": "BS07YH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4074,
+    "rego": "BS07YU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4075,
+    "rego": "BS07YV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4076,
+    "rego": "BS07XX",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4077,
+    "rego": "BS07YT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4078,
+    "rego": "BS07YI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4079,
+    "rego": "BS11YA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4080,
+    "rego": "BS11YB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4081,
+    "rego": "BS11YC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4082,
+    "rego": "BS11YD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4083,
+    "rego": "BS11YE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4084,
+    "rego": "BS11YF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4085,
+    "rego": "BS11YG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4086,
+    "rego": "BS11YH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4087,
+    "rego": "BS11YI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4088,
+    "rego": "BS11YJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4089,
+    "rego": "BS11YK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4090,
+    "rego": "BS11YL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4091,
+    "rego": "BS11YM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4092,
+    "rego": "BS11YN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4093,
+    "rego": "BS11YO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4094,
+    "rego": "BS11YP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4095,
+    "rego": "BS11YQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4096,
+    "rego": "BS11YR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4097,
+    "rego": "BS11YS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4098,
+    "rego": "BS11YY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4099,
+    "rego": "BS11YU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4100,
+    "rego": "BS11YV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4101,
+    "rego": "BS11YW",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4102,
+    "rego": "BS11XY",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4103,
+    "rego": "BS11XZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4104,
+    "rego": "BS11ZA",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4105,
+    "rego": "BS11ZB",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4106,
+    "rego": "BS11ZC",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4107,
+    "rego": "BS11ZD",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4108,
+    "rego": "BS11ZE",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4109,
+    "rego": "BS11ZF",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4110,
+    "rego": "BS11ZG",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4111,
+    "rego": "BS11ZH",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4112,
+    "rego": "BS11ZI",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4113,
+    "rego": "BS11ZJ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4114,
+    "rego": "BS11ZK",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4115,
+    "rego": "BS11ZL",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4116,
+    "rego": "BS11ZM",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4117,
+    "rego": "BS11ZN",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4118,
+    "rego": "BS11ZO",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4119,
+    "rego": "BS11ZP",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4120,
+    "rego": "BS11ZQ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4121,
+    "rego": "BS11ZR",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4122,
+    "rego": "BS11ZS",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4123,
+    "rego": "BS11ZT",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4124,
+    "rego": "BS11ZU",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4125,
+    "rego": "BS11ZV",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 4126,
+    "rego": "BS11YZ",
+    "operator": "Kinetic"
+  },
+  {
+    "fleet": 501,
+    "rego": "BS01LR",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 502,
+    "rego": "BS01MD",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 503,
+    "rego": "BS01MW",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 504,
+    "rego": "BS01MX",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 505,
+    "rego": "BS01NG",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 506,
+    "rego": "BS01NL",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 507,
+    "rego": "BS01PN",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 508,
+    "rego": "BS01PP",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 509,
+    "rego": "BS01PS",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 510,
+    "rego": "BS01PV",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 511,
+    "rego": "BS01PW",
+    "operator": "Melbourne Airport"
+  },
+  {
+    "fleet": 11,
+    "rego": "2811AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 32,
+    "rego": "3632AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 47,
+    "rego": "0547AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 48,
+    "rego": "3648AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 49,
+    "rego": "3649AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 58,
+    "rego": "4750AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 60,
+    "rego": "4660AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 70,
+    "rego": "3670AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 71,
+    "rego": "6071AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 90,
+    "rego": "5390AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 119,
+    "rego": "6919AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 120,
+    "rego": "6920AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 121,
+    "rego": "6921AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 122,
+    "rego": "7422AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 123,
+    "rego": "7132AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 124,
+    "rego": "7630AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 125,
+    "rego": "7713AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 126,
+    "rego": "7305AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 127,
+    "rego": "7306AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 129,
+    "rego": "7308AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 141,
+    "rego": "0492AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 143,
+    "rego": "5257AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 144,
+    "rego": "4695AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 145,
+    "rego": "4698AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 146,
+    "rego": "4696AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 191,
+    "rego": "4761AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 202,
+    "rego": "4719AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 203,
+    "rego": "4465AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 204,
+    "rego": "4741AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 205,
+    "rego": "5503AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 208,
+    "rego": "4748AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 211,
+    "rego": "4690AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 212,
+    "rego": "6054AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 213,
+    "rego": "6069AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 214,
+    "rego": "5936AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 216,
+    "rego": "5938AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 217,
+    "rego": "5994AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 218,
+    "rego": "6017AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 219,
+    "rego": "5981AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 220,
+    "rego": "6029AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 221,
+    "rego": "6033AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 222,
+    "rego": "6016AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 223,
+    "rego": "6018AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 224,
+    "rego": "6049AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 225,
+    "rego": "BS10FN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 226,
+    "rego": "6095AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 232,
+    "rego": "6134AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 233,
+    "rego": "6300AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 234,
+    "rego": "6278AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 236,
+    "rego": "6456AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 237,
+    "rego": "6305AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 238,
+    "rego": "4708AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 240,
+    "rego": "6308AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 249,
+    "rego": "6478AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 250,
+    "rego": "5013AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 251,
+    "rego": "BS10FH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 252,
+    "rego": "6871AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 253,
+    "rego": "6874AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 266,
+    "rego": "6485AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 268,
+    "rego": "6925AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 269,
+    "rego": "6927AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 270,
+    "rego": "6933AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 271,
+    "rego": "6931AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 272,
+    "rego": "6938AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 273,
+    "rego": "6929AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 274,
+    "rego": "6939AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 275,
+    "rego": "6932AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 276,
+    "rego": "6947AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 277,
+    "rego": "6951AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 278,
+    "rego": "6948AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 279,
+    "rego": "6974AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 280,
+    "rego": "7319AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 281,
+    "rego": "7338AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 282,
+    "rego": "7320AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 283,
+    "rego": "7339AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 284,
+    "rego": "7337AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 285,
+    "rego": "7341AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 286,
+    "rego": "7342AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 288,
+    "rego": "6922AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 289,
+    "rego": "6934AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 292,
+    "rego": "7491AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 293,
+    "rego": "7502AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 294,
+    "rego": "7655AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 315,
+    "rego": "4478AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 316,
+    "rego": "BS08WN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 329,
+    "rego": "5957AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 340,
+    "rego": "6034AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 341,
+    "rego": "6062AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 342,
+    "rego": "6100AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 344,
+    "rego": "6133AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 345,
+    "rego": "4453AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 346,
+    "rego": "5006AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 350,
+    "rego": "6324AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 351,
+    "rego": "6327AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 353,
+    "rego": "6326AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 354,
+    "rego": "6325AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 355,
+    "rego": "4462AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 356,
+    "rego": "6490AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 357,
+    "rego": "6926AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 358,
+    "rego": "6940AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 359,
+    "rego": "6930AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 360,
+    "rego": "6971AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 361,
+    "rego": "6991AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 372,
+    "rego": "7316AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 374,
+    "rego": "6945AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 375,
+    "rego": "6981AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 376,
+    "rego": "7315AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 377,
+    "rego": "7314AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 383,
+    "rego": "7406AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 393,
+    "rego": "7706AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 394,
+    "rego": "7837AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 395,
+    "rego": "7738AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 396,
+    "rego": "7838AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 400,
+    "rego": "7309AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 422,
+    "rego": "4422AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 426,
+    "rego": "4426AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 427,
+    "rego": "4427AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 433,
+    "rego": "4433AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 439,
+    "rego": "4768AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 440,
+    "rego": "4769AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 459,
+    "rego": "4459AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 481,
+    "rego": "00862M",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 496,
+    "rego": "1352AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 497,
+    "rego": "4409AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 498,
+    "rego": "4437AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 499,
+    "rego": "4464AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 547,
+    "rego": "4547AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 579,
+    "rego": "4542AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 580,
+    "rego": "4549AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 586,
+    "rego": "5982AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 587,
+    "rego": "6061AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 588,
+    "rego": "6136AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 589,
+    "rego": "5005AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 590,
+    "rego": "6460AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 591,
+    "rego": "6462AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 592,
+    "rego": "6468AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 593,
+    "rego": "6275AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 594,
+    "rego": "6918AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 595,
+    "rego": "6924AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 596,
+    "rego": "6928AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 597,
+    "rego": "6665AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 598,
+    "rego": "6935AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 599,
+    "rego": "6984AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 602,
+    "rego": "6973AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 603,
+    "rego": "6995AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 604,
+    "rego": "7318AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 610,
+    "rego": "7801AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 611,
+    "rego": "7800AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 627,
+    "rego": "7870AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 628,
+    "rego": "7935AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 629,
+    "rego": "7852AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 630,
+    "rego": "7840AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 631,
+    "rego": "7863AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 632,
+    "rego": "7862AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 633,
+    "rego": "7865AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 634,
+    "rego": "8070AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 635,
+    "rego": "8084AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 636,
+    "rego": "8093AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 637,
+    "rego": "8108AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 638,
+    "rego": "8110AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 639,
+    "rego": "8117AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 640,
+    "rego": "8124AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 641,
+    "rego": "8130AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 642,
+    "rego": "8127AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 643,
+    "rego": "8112AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 644,
+    "rego": "8081AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 645,
+    "rego": "8082AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 646,
+    "rego": "8086AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 647,
+    "rego": "8087AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 648,
+    "rego": "8092AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 649,
+    "rego": "8113AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 650,
+    "rego": "8114AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 651,
+    "rego": "8115AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 652,
+    "rego": "8137AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 653,
+    "rego": "8139AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 654,
+    "rego": "8140AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 655,
+    "rego": "8206AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 656,
+    "rego": "8146AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 657,
+    "rego": "8147AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 658,
+    "rego": "8155AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 659,
+    "rego": "8138AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 660,
+    "rego": "8141AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 664,
+    "rego": "8226AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 666,
+    "rego": "8230AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 667,
+    "rego": "8231AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 668,
+    "rego": "8233AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 669,
+    "rego": "8235AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 670,
+    "rego": "8236AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 671,
+    "rego": "8470AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 672,
+    "rego": "8471AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 673,
+    "rego": "8804AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 674,
+    "rego": "8805AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 675,
+    "rego": "8808AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 676,
+    "rego": "8824AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 677,
+    "rego": "8843AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 678,
+    "rego": "8842AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 679,
+    "rego": "8845AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 680,
+    "rego": "9033AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 681,
+    "rego": "9274AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 682,
+    "rego": "9182AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 685,
+    "rego": "8847AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 686,
+    "rego": "9132AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 687,
+    "rego": "9135AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 688,
+    "rego": "9147AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 689,
+    "rego": "9149AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 690,
+    "rego": "9160AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 691,
+    "rego": "9157AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 692,
+    "rego": "9134AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 693,
+    "rego": "9179AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 694,
+    "rego": "9170AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 695,
+    "rego": "9154AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 696,
+    "rego": "9250AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 697,
+    "rego": "9262AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 698,
+    "rego": "9165AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 699,
+    "rego": "9261AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 700,
+    "rego": "9183AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 701,
+    "rego": "9184AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 702,
+    "rego": "9291AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 703,
+    "rego": "9292AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 704,
+    "rego": "9048AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 705,
+    "rego": "8625AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 706,
+    "rego": "8626AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 707,
+    "rego": "9298AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 750,
+    "rego": "6350AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 751,
+    "rego": "6651AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 752,
+    "rego": "6652AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 753,
+    "rego": "6653AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 754,
+    "rego": "6654AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 761,
+    "rego": "5924AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 765,
+    "rego": "5950AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 766,
+    "rego": "5951AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 767,
+    "rego": "1956AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 770,
+    "rego": "6370AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 771,
+    "rego": "6371AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 772,
+    "rego": "6372AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 773,
+    "rego": "6373AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 774,
+    "rego": "6674AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 796,
+    "rego": "1299AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 797,
+    "rego": "5479AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 798,
+    "rego": "BS10FL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 799,
+    "rego": "5481AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 822,
+    "rego": "5148AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 823,
+    "rego": "4568AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 824,
+    "rego": "0994AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 825,
+    "rego": "4946AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 827,
+    "rego": "7479AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 828,
+    "rego": "7478AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 829,
+    "rego": "7484AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 830,
+    "rego": "7505AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 831,
+    "rego": "7541AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 832,
+    "rego": "7626AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 833,
+    "rego": "7629AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 834,
+    "rego": "7631AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 835,
+    "rego": "7685AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 836,
+    "rego": "7464AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 837,
+    "rego": "7691AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 838,
+    "rego": "7696AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 839,
+    "rego": "7727AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 840,
+    "rego": "7739AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 841,
+    "rego": "BS15EY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 842,
+    "rego": "7944AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 843,
+    "rego": "8165AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 844,
+    "rego": "8166AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 845,
+    "rego": "8167AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 846,
+    "rego": "8168AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 847,
+    "rego": "8169AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 848,
+    "rego": "8204AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 849,
+    "rego": "8237AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 850,
+    "rego": "8238AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 851,
+    "rego": "8239AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 852,
+    "rego": "9034AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 853,
+    "rego": "9035AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 854,
+    "rego": "9049AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 855,
+    "rego": "9051AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 856,
+    "rego": "9050AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 857,
+    "rego": "9052AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 858,
+    "rego": "9123AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 859,
+    "rego": "9401AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 860,
+    "rego": "9393AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 861,
+    "rego": "9403AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 862,
+    "rego": "9404AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 863,
+    "rego": "9412AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 864,
+    "rego": "9394AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 865,
+    "rego": "9417AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 866,
+    "rego": "9297AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 867,
+    "rego": "9391AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 870,
+    "rego": "5565AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 872,
+    "rego": "5566AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 877,
+    "rego": "5560AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 878,
+    "rego": "5562AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 879,
+    "rego": "5517AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 880,
+    "rego": "5561AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 881,
+    "rego": "5488AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 882,
+    "rego": "5489AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 883,
+    "rego": "5625AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 885,
+    "rego": "5627AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 886,
+    "rego": "5850AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 887,
+    "rego": "5851AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 888,
+    "rego": "5852AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 889,
+    "rego": "5964AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 890,
+    "rego": "5966AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 891,
+    "rego": "5967AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 892,
+    "rego": "5968AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 893,
+    "rego": "5970AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 894,
+    "rego": "5973AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 895,
+    "rego": "5972AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 896,
+    "rego": "5963AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 897,
+    "rego": "5960AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 898,
+    "rego": "5961AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 899,
+    "rego": "5962AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 900,
+    "rego": "5965AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 926,
+    "rego": "6910AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 927,
+    "rego": "6911AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 928,
+    "rego": "6912AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 929,
+    "rego": "6913AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 930,
+    "rego": "6914AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 931,
+    "rego": "6915AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 932,
+    "rego": "6916AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 933,
+    "rego": "7728AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 962,
+    "rego": "8047AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 963,
+    "rego": "7310AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 983,
+    "rego": "BS10FM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 984,
+    "rego": "8266AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 985,
+    "rego": "8267AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 986,
+    "rego": "8268AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 987,
+    "rego": "8269AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 988,
+    "rego": "8270AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 989,
+    "rego": "8271AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 990,
+    "rego": "8272AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 991,
+    "rego": "8273AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 992,
+    "rego": "8274AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 993,
+    "rego": "8426AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1000,
+    "rego": "9105AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1001,
+    "rego": "9106AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1002,
+    "rego": "9107AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1003,
+    "rego": "9108AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1004,
+    "rego": "9109AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1005,
+    "rego": "9110AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1006,
+    "rego": "9111AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1007,
+    "rego": "9112AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1008,
+    "rego": "9113AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1009,
+    "rego": "9114AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1010,
+    "rego": "9115AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1011,
+    "rego": "9116AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1012,
+    "rego": "9117AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1013,
+    "rego": "9118AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1014,
+    "rego": "9119AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1015,
+    "rego": "9120AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1016,
+    "rego": "9121AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1017,
+    "rego": "9122AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1018,
+    "rego": "BS10FI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1019,
+    "rego": "BS10NX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1020,
+    "rego": "9415AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1021,
+    "rego": "9462AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1022,
+    "rego": "9466AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1023,
+    "rego": "9591AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1024,
+    "rego": "9590AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1025,
+    "rego": "9480AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1026,
+    "rego": "9587AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1027,
+    "rego": "9589AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1028,
+    "rego": "BS00AQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1029,
+    "rego": "9619AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1030,
+    "rego": "9620AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1031,
+    "rego": "9664AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1032,
+    "rego": "9665AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1033,
+    "rego": "5397AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1034,
+    "rego": "5396AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1035,
+    "rego": "6079AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1036,
+    "rego": "6464AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1037,
+    "rego": "8460AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1038,
+    "rego": "BS00AR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1039,
+    "rego": "BS00AS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1040,
+    "rego": "9695AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1041,
+    "rego": "9419AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1042,
+    "rego": "9454AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1043,
+    "rego": "BS00BK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1044,
+    "rego": "BS00BL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1045,
+    "rego": "BS00HG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1046,
+    "rego": "BS00HP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1047,
+    "rego": "BS00NT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1048,
+    "rego": "BS00HQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1049,
+    "rego": "BS00NS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1050,
+    "rego": "BS00HI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1051,
+    "rego": "BS00NU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1052,
+    "rego": "BS00NV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1053,
+    "rego": "BS00HS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1054,
+    "rego": "BS00HT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1055,
+    "rego": "BS00SM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1056,
+    "rego": "BS00SH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1057,
+    "rego": "BS00PF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1058,
+    "rego": "7097AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1060,
+    "rego": "7119AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1061,
+    "rego": "7120AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1062,
+    "rego": "BS00SU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1063,
+    "rego": "BS00SP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1064,
+    "rego": "BS00SO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1065,
+    "rego": "6616AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1066,
+    "rego": "6615AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1067,
+    "rego": "7082AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1068,
+    "rego": "BS00PE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1069,
+    "rego": "BS00SC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1070,
+    "rego": "BS00SB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1071,
+    "rego": "BS00SD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1075,
+    "rego": "2814AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1077,
+    "rego": "8116AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1079,
+    "rego": "6028AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1080,
+    "rego": "7329AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1082,
+    "rego": "7330AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1085,
+    "rego": "7954AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1089,
+    "rego": "3601AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1090,
+    "rego": "3602AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1091,
+    "rego": "3603AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1092,
+    "rego": "7860AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1094,
+    "rego": "7861AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1095,
+    "rego": "7872AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1096,
+    "rego": "3611AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1112,
+    "rego": "3669AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1113,
+    "rego": "6072AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1125,
+    "rego": "7307AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1126,
+    "rego": "3664AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1141,
+    "rego": "6656AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1143,
+    "rego": "6852AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1144,
+    "rego": "6853AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1145,
+    "rego": "7294AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1147,
+    "rego": "7296AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1148,
+    "rego": "7297AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1149,
+    "rego": "7298AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1151,
+    "rego": "7300AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1152,
+    "rego": "7301AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1153,
+    "rego": "7302AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1154,
+    "rego": "7303AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1155,
+    "rego": "7304AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1185,
+    "rego": "8260AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1186,
+    "rego": "8261AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1187,
+    "rego": "0546AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1213,
+    "rego": "8262AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1214,
+    "rego": "8263AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1215,
+    "rego": "8264AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1219,
+    "rego": "8643AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1220,
+    "rego": "BS00ON",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1221,
+    "rego": "BS00OO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1222,
+    "rego": "BS00OP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1223,
+    "rego": "6632AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1224,
+    "rego": "7095AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1225,
+    "rego": "BS00SQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1226,
+    "rego": "6631AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1227,
+    "rego": "BS00SK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1228,
+    "rego": "BS00SL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1229,
+    "rego": "BS00SJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1230,
+    "rego": "7089AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1234,
+    "rego": "BS01GE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1235,
+    "rego": "BS01GG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1236,
+    "rego": "BS01GF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1237,
+    "rego": "BS01MG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1238,
+    "rego": "BS01MH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1239,
+    "rego": "BS01MM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1240,
+    "rego": "BS01MN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1241,
+    "rego": "BS01MO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1242,
+    "rego": "BS01MP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1243,
+    "rego": "BS01MQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1244,
+    "rego": "BS01MR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1245,
+    "rego": "BS01MS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1246,
+    "rego": "BS01MT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1247,
+    "rego": "BS01MU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1248,
+    "rego": "BS01MV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1249,
+    "rego": "BS01MI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1250,
+    "rego": "BS01MJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1251,
+    "rego": "BS01MK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1252,
+    "rego": "BS01ML",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1253,
+    "rego": "BS01XS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1254,
+    "rego": "BS01XT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1255,
+    "rego": "BS01XU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1256,
+    "rego": "BS01XV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1257,
+    "rego": "BS02DU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1258,
+    "rego": "BS01XW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1259,
+    "rego": "BS01XX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1260,
+    "rego": "BS01XY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1261,
+    "rego": "BS01XZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1262,
+    "rego": "BS01YA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1263,
+    "rego": "BS01ZA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1264,
+    "rego": "BS01ZB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1265,
+    "rego": "BS01ZC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1266,
+    "rego": "BS01ZD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1267,
+    "rego": "BS02LY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1268,
+    "rego": "BS02HL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1269,
+    "rego": "BS02HM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1270,
+    "rego": "BS02HN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1271,
+    "rego": "BS02MF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1272,
+    "rego": "BS02DL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1273,
+    "rego": "BS02DM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1274,
+    "rego": "BS02DN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1276,
+    "rego": "BS02IA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1277,
+    "rego": "BS02IB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1278,
+    "rego": "BS02RJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1279,
+    "rego": "BS02RV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1280,
+    "rego": "BS02LV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1281,
+    "rego": "BS02LW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1282,
+    "rego": "BS02LX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1283,
+    "rego": "BS02SC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1284,
+    "rego": "BS02SD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1285,
+    "rego": "BS02LZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1286,
+    "rego": "BS02MA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1287,
+    "rego": "BS02MD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1289,
+    "rego": "BS02MB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1290,
+    "rego": "BS02MC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1291,
+    "rego": "BS02ME",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1292,
+    "rego": "BS02LU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1293,
+    "rego": "BS02YE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1294,
+    "rego": "BS02YG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1295,
+    "rego": "BS02YH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1296,
+    "rego": "BS02YI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1297,
+    "rego": "BS02YJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1298,
+    "rego": "BS02ZA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1299,
+    "rego": "BS02ZB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1300,
+    "rego": "BS02ZC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1301,
+    "rego": "BS02ZD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1302,
+    "rego": "BS02ZE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1303,
+    "rego": "BS02ZF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1304,
+    "rego": "BS02ZG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1305,
+    "rego": "BS02ZH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1306,
+    "rego": "BS02ZI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1307,
+    "rego": "BS02ZJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1308,
+    "rego": "BS02ZK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1309,
+    "rego": "BS02ZL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1310,
+    "rego": "BS04KI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1311,
+    "rego": "BS04KJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1312,
+    "rego": "BS03WP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1313,
+    "rego": "BS03WQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1314,
+    "rego": "BS03WX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1315,
+    "rego": "BS04AC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1316,
+    "rego": "BS04AZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1317,
+    "rego": "BS04FT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1318,
+    "rego": "BS04DC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1319,
+    "rego": "BS04DD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1320,
+    "rego": "BS03PC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1321,
+    "rego": "BS03PD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1322,
+    "rego": "BS03PE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1323,
+    "rego": "BS02ZM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1324,
+    "rego": "BS00PV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1325,
+    "rego": "BS00PW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1326,
+    "rego": "BS00PX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1327,
+    "rego": "BS00PY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1328,
+    "rego": "BS04DI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1329,
+    "rego": "BS04DJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1330,
+    "rego": "BS02PT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1331,
+    "rego": "BS04DG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1332,
+    "rego": "BS04DH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1333,
+    "rego": "BS04DQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1334,
+    "rego": "BS04DP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1335,
+    "rego": "BS04DT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1336,
+    "rego": "BS04DL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1337,
+    "rego": "BS04DU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1338,
+    "rego": "BS04DK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1339,
+    "rego": "BS04DS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1340,
+    "rego": "BS04DM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1341,
+    "rego": "BS04JO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1342,
+    "rego": "BS04JP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1343,
+    "rego": "BS04JQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1344,
+    "rego": "BS04JR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1345,
+    "rego": "BS04JC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1346,
+    "rego": "BS04JT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1347,
+    "rego": "BS04JU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1348,
+    "rego": "BS04JV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1349,
+    "rego": "BS04JW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1350,
+    "rego": "BS04JX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1351,
+    "rego": "BS04JY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1352,
+    "rego": "BS04YF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1353,
+    "rego": "BS04KA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1354,
+    "rego": "BS04KB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1355,
+    "rego": "BS04KC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1356,
+    "rego": "BS04KD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1357,
+    "rego": "BS04KE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1358,
+    "rego": "BS04NJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1359,
+    "rego": "BS04KF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1360,
+    "rego": "BS04YD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1361,
+    "rego": "BS04YE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1362,
+    "rego": "BS04JZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1363,
+    "rego": "BS04XE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1364,
+    "rego": "BS04XF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1365,
+    "rego": "BS04XG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1366,
+    "rego": "BS04XH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1367,
+    "rego": "BS04XI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1368,
+    "rego": "BS04YG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1369,
+    "rego": "BS04YH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1370,
+    "rego": "BS04YI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1371,
+    "rego": "BS04YJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1372,
+    "rego": "BS04YK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1373,
+    "rego": "BS04YL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1374,
+    "rego": "BS04YA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1375,
+    "rego": "BS04YM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1376,
+    "rego": "BS04YN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1377,
+    "rego": "BS05FR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1378,
+    "rego": "BS04XX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1379,
+    "rego": "BS04XY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1380,
+    "rego": "BS04XZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1381,
+    "rego": "BS04KH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1383,
+    "rego": "BS03ET",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1384,
+    "rego": "BS03EF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1385,
+    "rego": "BS03EU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1386,
+    "rego": "BS03ES",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1387,
+    "rego": "BS03EQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1388,
+    "rego": "BS03EP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1389,
+    "rego": "BS03EG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1390,
+    "rego": "BS03FX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1391,
+    "rego": "BS03FA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1392,
+    "rego": "BS03FC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1393,
+    "rego": "BS03FB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1394,
+    "rego": "BS05JY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1395,
+    "rego": "BS05JZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1396,
+    "rego": "BS05KA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1397,
+    "rego": "BS05KB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1398,
+    "rego": "BS05KC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1399,
+    "rego": "BS05KD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1400,
+    "rego": "BS05KE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1401,
+    "rego": "BS05KF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1402,
+    "rego": "BS04YO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1403,
+    "rego": "BS04YP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1404,
+    "rego": "BS05KG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1405,
+    "rego": "BS05KH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1406,
+    "rego": "BS05KI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1407,
+    "rego": "BS05KJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1408,
+    "rego": "BS05FI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1409,
+    "rego": "BS05KS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1410,
+    "rego": "BS05KT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1411,
+    "rego": "BS05KK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1412,
+    "rego": "BS05KW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1413,
+    "rego": "BS05KL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1414,
+    "rego": "BS05KM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1415,
+    "rego": "BS05KN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1416,
+    "rego": "BS05KV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1417,
+    "rego": "BS05KO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1418,
+    "rego": "BS05KP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1419,
+    "rego": "BS05KR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1420,
+    "rego": "BS05MW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1421,
+    "rego": "BS05KU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1422,
+    "rego": "BS04YB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1423,
+    "rego": "BS04YC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1424,
+    "rego": "BS05MS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1425,
+    "rego": "BS05MX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1426,
+    "rego": "BS05MT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1427,
+    "rego": "BS05MU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1428,
+    "rego": "BS05MY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1429,
+    "rego": "BS05MZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1430,
+    "rego": "BS05MA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1431,
+    "rego": "BS05MB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1432,
+    "rego": "BS05NA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1433,
+    "rego": "BS05MC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1434,
+    "rego": "BS05MD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1435,
+    "rego": "BS05ME",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1436,
+    "rego": "BS05NB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1437,
+    "rego": "BS05NC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1438,
+    "rego": "BS05ND",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1439,
+    "rego": "BS05NE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1440,
+    "rego": "BS05NF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1441,
+    "rego": "BS05NG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1442,
+    "rego": "BS05NH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1443,
+    "rego": "BS05NI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1444,
+    "rego": "BS05ZS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1445,
+    "rego": "BS05HT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1446,
+    "rego": "BS05ZT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1447,
+    "rego": "BS05ZU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1448,
+    "rego": "BS06IB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1449,
+    "rego": "BS06IC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1450,
+    "rego": "BS06IA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1451,
+    "rego": "BS06ID",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1452,
+    "rego": "BS06IE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1453,
+    "rego": "BS06IF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1454,
+    "rego": "BS06IH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1455,
+    "rego": "BS06II",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1456,
+    "rego": "BS06IG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1457,
+    "rego": "BS06IJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1458,
+    "rego": "BS06IK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1459,
+    "rego": "BS06IL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1460,
+    "rego": "BS06IM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1461,
+    "rego": "BS06IN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1462,
+    "rego": "BS06IO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1463,
+    "rego": "BS06IT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1464,
+    "rego": "BS06IU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1465,
+    "rego": "BS06IP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1466,
+    "rego": "BS06IV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1467,
+    "rego": "BS06IQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1468,
+    "rego": "BS06IR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1469,
+    "rego": "BS06IS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1470,
+    "rego": "BS06IW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1471,
+    "rego": "BS06MT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1472,
+    "rego": "BS06MU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1473,
+    "rego": "BS06MV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1474,
+    "rego": "BS06MW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1475,
+    "rego": "BS06MX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1476,
+    "rego": "BS06MY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1477,
+    "rego": "BS06NY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1478,
+    "rego": "BS06IX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1479,
+    "rego": "BS06IY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1480,
+    "rego": "BS03GP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1481,
+    "rego": "BS02VJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1482,
+    "rego": "BS03GY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1483,
+    "rego": "BS03GZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1484,
+    "rego": "BS03HA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1485,
+    "rego": "BS03HP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1486,
+    "rego": "BS05RH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1487,
+    "rego": "BS06KN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1488,
+    "rego": "BS06KO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1489,
+    "rego": "BS06KP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1490,
+    "rego": "BS06KQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1491,
+    "rego": "BS06KR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1492,
+    "rego": "BS06KS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1493,
+    "rego": "BS06KT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1494,
+    "rego": "BS06KU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1495,
+    "rego": "BS06KV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1496,
+    "rego": "BS06KW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1497,
+    "rego": "BS06KX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1498,
+    "rego": "BS06KY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1499,
+    "rego": "BS06KZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1500,
+    "rego": "BS06OB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1501,
+    "rego": "BS06OC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1502,
+    "rego": "BS06YM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1503,
+    "rego": "BS06YN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1504,
+    "rego": "BS06YO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1505,
+    "rego": "BS06YP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1506,
+    "rego": "BS06YQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1507,
+    "rego": "BS06YR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1508,
+    "rego": "BS06YS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1509,
+    "rego": "BS06YT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1510,
+    "rego": "BS06YU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1511,
+    "rego": "BS06YV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1512,
+    "rego": "BS06YW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1513,
+    "rego": "BS06YX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1514,
+    "rego": "BS06YY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1515,
+    "rego": "BS06YZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1516,
+    "rego": "BS07FA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1517,
+    "rego": "BS07FB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1518,
+    "rego": "BS07FC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1519,
+    "rego": "BS07FD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1520,
+    "rego": "BS07FE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1521,
+    "rego": "BS07FF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1522,
+    "rego": "BS07FG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1523,
+    "rego": "BS07FH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1524,
+    "rego": "BS07IF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1525,
+    "rego": "BS07FJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1526,
+    "rego": "BS07FK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1527,
+    "rego": "BS07FL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1528,
+    "rego": "BS07FM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1529,
+    "rego": "BS07FN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1530,
+    "rego": "BS07FO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1531,
+    "rego": "BS07FP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1532,
+    "rego": "BS07FQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1533,
+    "rego": "BS07FR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1534,
+    "rego": "BS07FS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1535,
+    "rego": "BS07FT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1536,
+    "rego": "BS07HA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1537,
+    "rego": "BS07HB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1538,
+    "rego": "BS07HC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1539,
+    "rego": "BS07HD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1540,
+    "rego": "BS07HE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1541,
+    "rego": "BS07HF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1542,
+    "rego": "BS07KG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1543,
+    "rego": "BS07KH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1544,
+    "rego": "BS07KB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1545,
+    "rego": "BS07KA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1546,
+    "rego": "BS06XR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1547,
+    "rego": "BS06XP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1548,
+    "rego": "BS06XN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1549,
+    "rego": "BS06XS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1550,
+    "rego": "BS06XO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1551,
+    "rego": "BS06XQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1552,
+    "rego": "BS07RQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1553,
+    "rego": "BS07RR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1554,
+    "rego": "BS07WE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1555,
+    "rego": "BS07WG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1557,
+    "rego": "BS06XT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1558,
+    "rego": "BS07OW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1559,
+    "rego": "BS07OV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1560,
+    "rego": "BS07QC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1561,
+    "rego": "BS07QJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1562,
+    "rego": "BS07QI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1563,
+    "rego": "BS08HC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1564,
+    "rego": "BS08HD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1565,
+    "rego": "BS08HF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1566,
+    "rego": "BS08HG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1567,
+    "rego": "BS08HH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1568,
+    "rego": "BS08HI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1569,
+    "rego": "BS08HJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1570,
+    "rego": "BS08HK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1571,
+    "rego": "BS08HL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1572,
+    "rego": "BS08HM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1573,
+    "rego": "BS08HN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1574,
+    "rego": "BS08HO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1575,
+    "rego": "BS09HQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1576,
+    "rego": "BS09HU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1577,
+    "rego": "BS10OO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1578,
+    "rego": "BS10OP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1579,
+    "rego": "BS10QO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1580,
+    "rego": "BS10QP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1581,
+    "rego": "BS10OQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1582,
+    "rego": "BS10SO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1583,
+    "rego": "BS10OR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1584,
+    "rego": "BS10OS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1585,
+    "rego": "BS10OT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1586,
+    "rego": "BS10QL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1587,
+    "rego": "BS09HS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1588,
+    "rego": "BS10OW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1589,
+    "rego": "BS10OU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1590,
+    "rego": "BS10QM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1591,
+    "rego": "BS09HT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1592,
+    "rego": "BS10OV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1593,
+    "rego": "BS10SK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1594,
+    "rego": "BS10SL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1595,
+    "rego": "BS10SM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1596,
+    "rego": "BS10SN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1597,
+    "rego": "BS07LB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1598,
+    "rego": "BS07LC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1599,
+    "rego": "BS07LD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1600,
+    "rego": "BS07LE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1601,
+    "rego": "BS08LU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1602,
+    "rego": "BS08LV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1603,
+    "rego": "BS09HM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1604,
+    "rego": "BS09HL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1605,
+    "rego": "BS09KS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1606,
+    "rego": "BS07TE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1607,
+    "rego": "BS07TD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1608,
+    "rego": "BS07TF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1609,
+    "rego": "BS09HR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1610,
+    "rego": "BS10QN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1611,
+    "rego": "BS09LR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1612,
+    "rego": "BS09LS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1613,
+    "rego": "BS10YU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1614,
+    "rego": "BS10YV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1615,
+    "rego": "BS10YW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1616,
+    "rego": "BS10YX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1617,
+    "rego": "BS10YY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1618,
+    "rego": "BS10YZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1619,
+    "rego": "BS10ZA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1620,
+    "rego": "BS10ZB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1621,
+    "rego": "BS10ZC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1622,
+    "rego": "BS10ZD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1623,
+    "rego": "BS10ZE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1624,
+    "rego": "BS10ZF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1625,
+    "rego": "BS10OX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1626,
+    "rego": "BS10LY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1627,
+    "rego": "BS10LX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1628,
+    "rego": "BS10SX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1629,
+    "rego": "BS11DI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1630,
+    "rego": "BS11DJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1631,
+    "rego": "BS10KT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1632,
+    "rego": "BS11MC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1633,
+    "rego": "BS11MD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1634,
+    "rego": "BS11ME",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1635,
+    "rego": "BS11MF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1636,
+    "rego": "BS11MG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1637,
+    "rego": "BS11MH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1638,
+    "rego": "BS11MI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1639,
+    "rego": "BS11MJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1640,
+    "rego": "BS11MK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1641,
+    "rego": "BS11ML",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1642,
+    "rego": "BS11MM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1643,
+    "rego": "BS11MN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1644,
+    "rego": "BS11MO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1645,
+    "rego": "BS11MP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1646,
+    "rego": "BS11MQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1647,
+    "rego": "BS11MR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1648,
+    "rego": "BS11MS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1649,
+    "rego": "BS11MT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1650,
+    "rego": "BS11MU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1651,
+    "rego": "BS11MV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1652,
+    "rego": "BS11MW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1653,
+    "rego": "BS11MX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1654,
+    "rego": "BS13XA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1655,
+    "rego": "BS13XB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1656,
+    "rego": "BS11HG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1657,
+    "rego": "BS11HS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1658,
+    "rego": "BS11HP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1659,
+    "rego": "BS11HQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1660,
+    "rego": "BS12UZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1661,
+    "rego": "BS12VA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1662,
+    "rego": "BS11VI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1663,
+    "rego": "BS11UX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1664,
+    "rego": "BS11UZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1665,
+    "rego": "BS10YF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1666,
+    "rego": "BS11VL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1667,
+    "rego": "BS12VB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1668,
+    "rego": "BS12VC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1669,
+    "rego": "BS12MA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1670,
+    "rego": "BS12MB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1671,
+    "rego": "BS12MC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1672,
+    "rego": "BS12MD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1673,
+    "rego": "BS12ME",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1674,
+    "rego": "BS12MF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1675,
+    "rego": "BS12YA",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1676,
+    "rego": "BS12YB",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1677,
+    "rego": "BS12YC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1678,
+    "rego": "BS12YD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1679,
+    "rego": "BS12YE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1680,
+    "rego": "BS12YF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1681,
+    "rego": "BS12YG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1682,
+    "rego": "BS12YH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1683,
+    "rego": "BS12YI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1684,
+    "rego": "BS12YJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1685,
+    "rego": "BS12MG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1686,
+    "rego": "BS12MH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1687,
+    "rego": "BS12MI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1688,
+    "rego": "BS12MJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1689,
+    "rego": "BS12MK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1690,
+    "rego": "BS12ML",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1691,
+    "rego": "BS12MM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1692,
+    "rego": "BS12MN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1693,
+    "rego": "BS12MO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1694,
+    "rego": "BS12MP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1695,
+    "rego": "BS12MQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1696,
+    "rego": "BS12MR",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1697,
+    "rego": "BS12MS",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1698,
+    "rego": "BS12MT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1699,
+    "rego": "BS12MU",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1700,
+    "rego": "BS12MV",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1701,
+    "rego": "BS12MW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1702,
+    "rego": "BS12MX",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1703,
+    "rego": "BS12MY",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1704,
+    "rego": "BS12AF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1705,
+    "rego": "BS12AG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1706,
+    "rego": "BS12AC",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1707,
+    "rego": "BS12AD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1708,
+    "rego": "BS12AE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1709,
+    "rego": "BS12AH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1710,
+    "rego": "BS12AI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1711,
+    "rego": "BS12AJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1712,
+    "rego": "BS12AK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1713,
+    "rego": "BS12AL",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1714,
+    "rego": "BS12AM",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1715,
+    "rego": "BS12AN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1716,
+    "rego": "BS12AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1717,
+    "rego": "BS12AP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1718,
+    "rego": "BS13FD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1719,
+    "rego": "BS13FE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1720,
+    "rego": "BS13FF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1721,
+    "rego": "BS13FG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1722,
+    "rego": "BS13EP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1723,
+    "rego": "BS13EQ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1724,
+    "rego": "BS13ER",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1725,
+    "rego": "BS13ES",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1726,
+    "rego": "BS13XE",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1727,
+    "rego": "BS13XF",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1728,
+    "rego": "BS13XG",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1729,
+    "rego": "BS13XH",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1730,
+    "rego": "BS14SZ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1731,
+    "rego": "BS14JW",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1732,
+    "rego": "BS14TD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1733,
+    "rego": "BS14TI",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1734,
+    "rego": "BS14TJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1735,
+    "rego": "BS14TK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1736,
+    "rego": "BS14TN",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1737,
+    "rego": "BS14TO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1738,
+    "rego": "BS14TP",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1739,
+    "rego": "BS14TT",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1740,
+    "rego": "BS14WD",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1741,
+    "rego": "BS14WJ",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 1924,
+    "rego": "BS07GK",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 8228,
+    "rego": "6114AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 8229,
+    "rego": "6115AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 8230,
+    "rego": "6116AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 8231,
+    "rego": "6117AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 8235,
+    "rego": "6118AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 8239,
+    "rego": "6476AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 8909,
+    "rego": "6709AO",
+    "operator": "Ventura"
+  },
+  {
+    "fleet": 14,
+    "rego": "BS03XB",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 14,
+    "rego": "XS38AA",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 15,
+    "rego": "BS03XC",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 15,
+    "rego": "XS39AA",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 16,
+    "rego": "0081AO",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 30,
+    "rego": "130 FB5",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 42,
+    "rego": "BS01DH",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 70,
+    "rego": "XT44AI",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 71,
+    "rego": "XT46AI",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 75,
+    "rego": "XT94AK",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 76,
+    "rego": "XT59AM",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 77,
+    "rego": "XT20BJ",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 78,
+    "rego": "XT81BG",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 82,
+    "rego": "BS00OG",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 83,
+    "rego": "BS00OE",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 84,
+    "rego": "9025AO",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 87,
+    "rego": "9028AO",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 90,
+    "rego": "XT53CC",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 91,
+    "rego": "XT55CC",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 101,
+    "rego": "BS01LS",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 102,
+    "rego": "BS01LT",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 103,
+    "rego": "BS01LU",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 104,
+    "rego": "BS01LV",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 105,
+    "rego": "BS01WX",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 106,
+    "rego": "BS01WY",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 107,
+    "rego": "BS02IS",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 108,
+    "rego": "BS02IT",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 109,
+    "rego": "BS02IW",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 110,
+    "rego": "BS02KH",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 111,
+    "rego": "BS02KI",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 112,
+    "rego": "BS02KJ",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 113,
+    "rego": "BS02YN",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 114,
+    "rego": "BS04BC",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 115,
+    "rego": "BS04BD",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 116,
+    "rego": "BS04NV",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 117,
+    "rego": "BS04NW",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 124,
+    "rego": "BS08PP",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 125,
+    "rego": "BS08PO",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 126,
+    "rego": "BS08BI",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 127,
+    "rego": "BS08BH",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 128,
+    "rego": "BS09NK",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 129,
+    "rego": "BS12HF",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 130,
+    "rego": "BS08PQ",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 131,
+    "rego": "BS13YA",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 150,
+    "rego": "BS04BA",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 151,
+    "rego": "BS04BB",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 152,
+    "rego": "BS04NN",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 153,
+    "rego": "BS04NO",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 215,
+    "rego": "BS04SZ",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 216,
+    "rego": "BS04TA",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 217,
+    "rego": "BS04TB",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 218,
+    "rego": "BS04TC",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 219,
+    "rego": "BS04TD",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 220,
+    "rego": "BS04TE",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 221,
+    "rego": "BS04TF",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 222,
+    "rego": "BS04TG",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 223,
+    "rego": "BS04TH",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 224,
+    "rego": "BS04TI",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 225,
+    "rego": "BS04TJ",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 226,
+    "rego": "BS06OG",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 227,
+    "rego": "BS06OH",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 229,
+    "rego": "BS06OZ",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 600,
+    "rego": "BS14JF",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 601,
+    "rego": "BS14JG",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 602,
+    "rego": "BS14JJ",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 603,
+    "rego": "BS14JH",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 604,
+    "rego": "BS14JE",
+    "operator": "Skybus"
+  },
+  {
+    "fleet": 605,
+    "rego": "BS14JI",
+    "operator": "Skybus"
+  }
+]
