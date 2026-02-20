@@ -1,5 +1,6 @@
 import express from "express";
 import fetch from "node-fetch";
+import fs from "fs";
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 
 const app = express();
@@ -10,12 +11,26 @@ const API_KEY = "1a9699bf-54d2-42a4-a170-5416f7f6993a";
 const GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
 
-app.get("/", (req, res) => {
-  res.send("PTV GTFS Backend Running");
-});
+// Load fleet mapping file
+const fleetMap = JSON.parse(
+  fs.readFileSync("./fleet_map.json", "utf8")
+);
 
-app.get("/debug", async (req, res) => {
+app.get("/bus/:fleetNumber", async (req, res) => {
   try {
+    const fleetNumber = req.params.fleetNumber.trim();
+
+    // Find registration from fleet map
+    const match = fleetMap.find(
+      b => b.fleet === fleetNumber
+    );
+
+    if (!match) {
+      return res.json({ error: "fleet_not_found" });
+    }
+
+    const registration = match.rego;
+
     const response = await fetch(GTFS_URL, {
       headers: { KeyId: API_KEY }
     });
@@ -27,24 +42,26 @@ app.get("/debug", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    const vehicles = feed.entity
+    const vehicle = feed.entity
       .filter(e => e.vehicle)
-      .slice(0, 20)
-      .map(e => ({
-        vehicleId: e.vehicle.vehicle?.id || null,
-        vehicleLabel: e.vehicle.vehicle?.label || null,
-        routeId: e.vehicle.trip?.routeId || null,
-        tripId: e.vehicle.trip?.tripId || null,
-        latitude: e.vehicle.position?.latitude || null,
-        longitude: e.vehicle.position?.longitude || null,
-        timestamp: e.vehicle.timestamp || null
-      }));
+      .find(e => e.vehicle.vehicle?.id === registration);
 
-    res.json(vehicles);
+    if (!vehicle) {
+      return res.json({ error: "bus_not_active" });
+    }
+
+    res.json({
+      fleetNumber,
+      registration,
+      routeId: vehicle.vehicle.trip?.routeId,
+      latitude: vehicle.vehicle.position?.latitude,
+      longitude: vehicle.vehicle.position?.longitude,
+      timestamp: vehicle.vehicle.timestamp?.low
+    });
 
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "decode_failed" });
+    res.status(500).json({ error: "server_error" });
   }
 });
 
