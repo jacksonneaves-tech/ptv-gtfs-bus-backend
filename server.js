@@ -68,12 +68,6 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       headers: { KeyId: API_KEY }
     });
 
-    if (!response.ok) {
-      return res.status(response.status).json({
-        error: "gtfs_fetch_failed"
-      });
-    }
-
     const buffer = await response.arrayBuffer();
 
     const feed =
@@ -81,32 +75,28 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
         new Uint8Array(buffer)
       );
 
+    const allVehicleIds = feed.entity
+      .filter(e => e.vehicle)
+      .map(e => e.vehicle.vehicle?.id);
+
     const vehicle = feed.entity
       .filter(e => e.vehicle)
-      .find(e => e.vehicle.vehicle?.id === match.rego);
+      .find(e =>
+        e.vehicle.vehicle?.id?.toUpperCase().trim() ===
+        match.rego.toUpperCase().trim()
+      );
 
     if (!vehicle) {
-      return res.json({ error: "bus_not_active" });
+      return res.json({
+        error: "bus_not_active",
+        searchingForRego: match.rego,
+        sampleActiveRegos: allVehicleIds.slice(0, 20)
+      });
     }
 
-    const timestamp = vehicle.vehicle.timestamp?.low || 0;
-    const now = Math.floor(Date.now() / 1000);
-
-    const isLive = now - timestamp < 120;
-
-    res.json({
-      fleet,
-      operator,
-      registration: match.rego,
-      routeId: vehicle.vehicle.trip?.routeId || "Unknown",
-      latitude: vehicle.vehicle.position?.latitude,
-      longitude: vehicle.vehicle.position?.longitude,
-      timestamp,
-      live: isLive
-    });
+    res.json({ success: true });
 
   } catch (error) {
-    console.error(error);
     res.status(500).json({ error: "server_error" });
   }
 });
