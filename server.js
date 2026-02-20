@@ -6,26 +6,33 @@ import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 
 const app = express();
 
-// ✅ Enable CORS for all origins
-app.use(cors({
-  origin: "*"
-}));
+// ✅ Enable CORS (required for GitHub Pages frontend)
+app.use(cors({ origin: "*" }));
 
 const PORT = process.env.PORT || 3000;
 
+// 🔐 Replace with your REAL PTV subscription key
 const API_KEY = "1a9699bf-54d2-42a4-a170-5416f7f6993a";
 
 const GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
 
+// ✅ Load fleet mapping file
 const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
 
-// Get operators for a fleet number
+/*
+----------------------------------------
+GET OPERATORS FOR FLEET
+----------------------------------------
+*/
 app.get("/operators/:fleet", (req, res) => {
   const fleet = req.params.fleet.trim();
-  const matches = fleetMap.filter(b => b.fleet === fleet);
+
+  const matches = fleetMap.filter(
+    b => String(b.fleet).trim() === fleet
+  );
 
   if (matches.length === 0) {
     return res.json({ error: "fleet_not_found" });
@@ -37,14 +44,20 @@ app.get("/operators/:fleet", (req, res) => {
   });
 });
 
-// Get bus location
+/*
+----------------------------------------
+GET BUS LOCATION
+----------------------------------------
+*/
 app.get("/bus/:fleet/:operator", async (req, res) => {
   try {
     const fleet = req.params.fleet.trim();
     const operator = req.params.operator.trim();
 
     const match = fleetMap.find(
-      b => b.fleet === fleet && b.operator === operator
+      b =>
+        String(b.fleet).trim() === fleet &&
+        b.operator === operator
     );
 
     if (!match) {
@@ -54,6 +67,12 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
     const response = await fetch(GTFS_URL, {
       headers: { KeyId: API_KEY }
     });
+
+    if (!response.ok) {
+      return res.status(response.status).json({
+        error: "gtfs_fetch_failed"
+      });
+    }
 
     const buffer = await response.arrayBuffer();
 
@@ -79,7 +98,7 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       fleet,
       operator,
       registration: match.rego,
-      routeId: vehicle.vehicle.trip?.routeId,
+      routeId: vehicle.vehicle.trip?.routeId || "Unknown",
       latitude: vehicle.vehicle.position?.latitude,
       longitude: vehicle.vehicle.position?.longitude,
       timestamp,
@@ -92,6 +111,11 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
   }
 });
 
+/*
+----------------------------------------
+START SERVER
+----------------------------------------
+*/
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
 });
