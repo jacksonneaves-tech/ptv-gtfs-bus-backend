@@ -62,12 +62,13 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    const totalEntities = feed.entity.length;
-    const vehicleEntities = feed.entity.filter(e => e.vehicle).length;
+    const activeRegos = feed.entity
+      .filter(e => e.vehicle)
+      .map(e => e.vehicle.vehicle?.id)
+      .slice(0, 100); // first 100 only
 
     res.json({
-      totalEntities,
-      vehicleEntities
+      sampleActiveRegos: activeRegos
     });
 
   } catch (error) {
