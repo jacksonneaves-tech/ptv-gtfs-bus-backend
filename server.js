@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ2UDZiSkhka1lhQ3lRV3BDSUp1WnVhdUpmdHNnellucUZqNDgzYU5ZMGhjIiwiaWF0IjoxNzcxNTc5MTIwfQ.KpzxhHRqxRNxH-0pNAQSSWNv05cRHkn-r6rdTF0ItYg";
+const API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzUmQ1c25ydFR1QldLcTg5eExyWjVYQk5ubnZuMk8wTm1KT0JrR1N1aE5vIiwiaWF0IjoxNzcxNTg0MTk2fQ.QXIUE8-VEdS0azZSJpBtYB0zxl9B68lPJHS1d4XID6s";
 
 const GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
