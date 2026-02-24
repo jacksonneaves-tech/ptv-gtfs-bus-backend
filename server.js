@@ -46,24 +46,27 @@ async function pollVicGTFS() {
       );
 
     const now = Date.now();
-    const vehiclesToUpsert = [];
+    const vehicleMap = new Map();
 
-    for (const entity of feed.entity) {
-      if (!entity.vehicle) continue;
+for (const entity of feed.entity) {
+  if (!entity.vehicle) continue;
 
-      const rego = entity.vehicle.vehicle?.id;
-      const latitude = entity.vehicle.position?.latitude;
-      const longitude = entity.vehicle.position?.longitude;
+  const rego = entity.vehicle.vehicle?.id;
+  const latitude = entity.vehicle.position?.latitude;
+  const longitude = entity.vehicle.position?.longitude;
 
-      if (!rego || latitude == null || longitude == null) continue;
+  if (!rego || latitude == null || longitude == null) continue;
 
-      vehiclesToUpsert.push({
-        rego,
-        latitude,
-        longitude,
-        last_seen: now
-      });
-    }
+  // If duplicate rego appears, latest one overwrites previous
+  vehicleMap.set(rego, {
+    rego,
+    latitude,
+    longitude,
+    last_seen: now
+  });
+}
+
+const vehiclesToUpsert = Array.from(vehicleMap.values());
 
     console.log(`Preparing to cache ${vehiclesToUpsert.length} buses`);
 
