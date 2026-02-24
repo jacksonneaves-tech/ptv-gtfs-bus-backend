@@ -211,15 +211,14 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
     const isLive = now - data.last_seen < 120000;
 
     return res.json({
-      status: isLive ? "live" : "offline",
-      state: data.state,
-      fleet,
-      operator: match.operator,
-      rego: match.rego,
-      latitude: data.latitude,
-      longitude: data.longitude,
-      lastSeen: data.last_seen
-    });
+  fleet,
+  operator: match.operator,
+  rego: match.rego,
+  latitude: data.latitude,
+  longitude: data.longitude,
+  timestamp: data.last_seen,
+  status: isLive ? "live" : "offline"
+});
 
   } catch (error) {
     console.error(error);
