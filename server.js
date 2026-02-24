@@ -3,28 +3,39 @@ import fetch from "node-fetch";
 import fs from "fs";
 import cors from "cors";
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
+import { createClient } from "@supabase/supabase-js";
 
 const app = express();
 
-// ✅ Enable CORS (required for GitHub Pages frontend)
 app.use(cors({ origin: "*" }));
 
 const PORT = process.env.PORT || 3000;
 
-// 🔐 Replace with your REAL PTV subscription key
 const API_KEY = "1a9699bf-54d2-42a4-a170-5416f7f6993a";
 
 const GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
 
-// ✅ Load fleet mapping file
+// ==============================
+// SUPABASE CONNECTION
+// ==============================
+
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_ANON_KEY
+);
+
+// ==============================
+// LOAD FLEET MAP
+// ==============================
+
 const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
 
 /*
 ----------------------------------------
-GET OPERATORS FOR FLEET
+GET OPERATORS
 ----------------------------------------
 */
 app.get("/operators/:fleet", (req, res) => {
@@ -46,7 +57,7 @@ app.get("/operators/:fleet", (req, res) => {
 
 /*
 ----------------------------------------
-GET BUS LOCATION
+GET BUS LOCATION (VIC)
 ----------------------------------------
 */
 app.get("/bus/:fleet/:operator", async (req, res) => {
@@ -54,7 +65,6 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
     const fleet = req.params.fleet.trim();
     const operator = req.params.operator.trim().toLowerCase();
 
-    // 🔎 Find fleet + operator match in JSON
     const match = fleetMap.find(
       b =>
         String(b.fleet).trim() === fleet &&
@@ -76,7 +86,6 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    // ✅ Normalize regos (removes leading zeros)
     const normalize = (rego) =>
       rego?.toUpperCase().replace(/^0+/, "");
 
@@ -86,21 +95,63 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       normalize(e.vehicle.vehicle.id) === normalize(match.rego)
     );
 
-    if (!vehicle) {
+    // ======================
+    // IF LIVE
+    // ======================
+    if (vehicle) {
+      const latitude = vehicle.vehicle.position?.latitude;
+      const longitude = vehicle.vehicle.position?.longitude;
+      const now = Date.now();
+
+      // UPSERT into Supabase
+      await supabase
+        .from("vehicles")
+        .upsert({
+          rego: match.rego,
+          latitude,
+          longitude,
+          last_seen: now,
+          fleet,
+          operator: match.operator
+        });
+
       return res.json({
-        error: "bus_not_active",
-        searchingForRego: match.rego
+        status: "live",
+        fleet,
+        operator: match.operator,
+        rego: match.rego,
+        routeId: vehicle.vehicle.trip?.routeId || null,
+        latitude,
+        longitude,
+        timestamp: vehicle.vehicle.timestamp
       });
     }
 
-    res.json({
-      fleet,
-      operator: match.operator,
-      rego: match.rego,
-      routeId: vehicle.vehicle.trip?.routeId || null,
-      latitude: vehicle.vehicle.position?.latitude,
-      longitude: vehicle.vehicle.position?.longitude,
-      timestamp: vehicle.vehicle.timestamp
+    // ======================
+    // IF OFFLINE → CHECK DB
+    // ======================
+
+    const { data } = await supabase
+      .from("vehicles")
+      .select("*")
+      .eq("rego", match.rego)
+      .single();
+
+    if (data) {
+      return res.json({
+        status: "offline",
+        fleet,
+        operator: data.operator,
+        rego: match.rego,
+        latitude: data.latitude,
+        longitude: data.longitude,
+        lastSeen: data.last_seen
+      });
+    }
+
+    return res.json({
+      error: "bus_not_active",
+      searchingForRego: match.rego
     });
 
   } catch (error) {
@@ -111,7 +162,7 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
 
 /*
 ----------------------------------------
-GET NSW BUS BY FLEXIBLE REGO
+NSW ENDPOINT (UNCHANGED)
 ----------------------------------------
 */
 app.get("/nsw/:input", async (req, res) => {
@@ -180,6 +231,7 @@ app.get("/nsw/:input", async (req, res) => {
     res.status(500).json({ error: "nsw_server_error" });
   }
 });
+
 /*
 ----------------------------------------
 START SERVER
