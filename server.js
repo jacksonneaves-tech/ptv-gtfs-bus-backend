@@ -12,8 +12,11 @@ const PORT = process.env.PORT || 3000;
 
 const API_KEY = "1a9699bf-54d2-42a4-a170-5416f7f6993a";
 
-const GTFS_URL =
+const VIC_GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
+
+const NSW_GTFS_URL =
+  "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses";
 
 const supabase = createClient(
   process.env.SUPABASE_URL,
@@ -26,7 +29,29 @@ const fleetMap = JSON.parse(
 
 /*
 =================================================
-BACKGROUND POLLING — CACHE ALL VIC BUSES
+GENERIC BATCH UPSERT FUNCTION
+=================================================
+*/
+
+async function batchUpsert(vehicles) {
+  const chunkSize = 500;
+
+  for (let i = 0; i < vehicles.length; i += chunkSize) {
+    const chunk = vehicles.slice(i, i + chunkSize);
+
+    const { error } = await supabase
+      .from("vehicles")
+      .upsert(chunk, { onConflict: "rego" });
+
+    if (error) {
+      console.error("Upsert error:", error);
+    }
+  }
+}
+
+/*
+=================================================
+VIC POLLING
 =================================================
 */
 
@@ -34,7 +59,7 @@ async function pollVicGTFS() {
   try {
     console.log("Polling VIC GTFS...");
 
-    const response = await fetch(GTFS_URL, {
+    const response = await fetch(VIC_GTFS_URL, {
       headers: { KeyId: API_KEY }
     });
 
@@ -48,90 +73,112 @@ async function pollVicGTFS() {
     const now = Date.now();
     const vehicleMap = new Map();
 
-for (const entity of feed.entity) {
-  if (!entity.vehicle) continue;
+    for (const entity of feed.entity) {
+      if (!entity.vehicle) continue;
 
-  const rego = entity.vehicle.vehicle?.id;
-  const latitude = entity.vehicle.position?.latitude;
-  const longitude = entity.vehicle.position?.longitude;
+      const rego = entity.vehicle.vehicle?.id;
+      const latitude = entity.vehicle.position?.latitude;
+      const longitude = entity.vehicle.position?.longitude;
 
-  if (!rego || latitude == null || longitude == null) continue;
+      if (!rego || latitude == null || longitude == null) continue;
 
-  // If duplicate rego appears, latest one overwrites previous
-  vehicleMap.set(rego, {
-    rego,
-    latitude,
-    longitude,
-    last_seen: now
-  });
-}
-
-const vehiclesToUpsert = Array.from(vehicleMap.values());
-
-    console.log(`Preparing to cache ${vehiclesToUpsert.length} buses`);
-
-    // ✅ Batch in chunks of 500
-    const chunkSize = 500;
-    let chunkCounter = 0;
-
-    // Process in batches
-    for (let i = 0; i < vehiclesToUpsert.length; i += chunkSize) {
-      const chunk = vehiclesToUpsert.slice(i, i + chunkSize);
-      chunkCounter++;
-
-      console.log(`Upserting chunk ${chunkCounter}...`);
-
-      const { error } = await supabase
-        .from("vehicles")
-        .upsert(chunk, { onConflict: "rego" });
-
-      if (error) {
-        console.error(`Error in upsert chunk ${chunkCounter}:`, error);
-      } else {
-        console.log(`Successfully cached chunk ${chunkCounter}`);
-      }
+      vehicleMap.set(rego, {
+        rego,
+        latitude,
+        longitude,
+        last_seen: now,
+        state: "VIC"
+      });
     }
 
-    console.log(`Cached ${vehiclesToUpsert.length} VIC buses`);
+    const vehicles = Array.from(vehicleMap.values());
+
+    console.log(`Caching ${vehicles.length} VIC buses`);
+
+    await batchUpsert(vehicles);
 
   } catch (err) {
     console.error("VIC Polling Error:", err);
   }
 }
 
-// Poll every 60 seconds
-setInterval(pollVicGTFS, 60000);
-
-// Run immediately on startup
-pollVicGTFS();
-
 /*
-----------------------------------------
-GET OPERATORS
-----------------------------------------
+=================================================
+NSW POLLING
+=================================================
 */
-app.get("/operators/:fleet", (req, res) => {
-  const fleet = req.params.fleet.trim();
 
-  const matches = fleetMap.filter(
-    b => String(b.fleet).trim() === fleet
-  );
+async function pollNswGTFS() {
+  try {
+    console.log("Polling NSW GTFS...");
 
-  if (matches.length === 0) {
-    return res.json({ error: "fleet_not_found" });
+    const response = await fetch(NSW_GTFS_URL, {
+      headers: {
+        Authorization: `apikey ${process.env.TFNSW_API_KEY}`,
+        Accept: "application/x-protobuf"
+      }
+    });
+
+    const buffer = await response.arrayBuffer();
+
+    const feed =
+      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
+        new Uint8Array(buffer)
+      );
+
+    const now = Date.now();
+    const vehicleMap = new Map();
+
+    for (const entity of feed.entity) {
+      if (!entity.vehicle) continue;
+
+      const rego =
+        entity.vehicle.vehicle?.licensePlate ||
+        entity.vehicle.vehicle?.id;
+
+      const latitude = entity.vehicle.position?.latitude;
+      const longitude = entity.vehicle.position?.longitude;
+
+      if (!rego || latitude == null || longitude == null) continue;
+
+      vehicleMap.set(rego, {
+        rego,
+        latitude,
+        longitude,
+        last_seen: now,
+        state: "NSW"
+      });
+    }
+
+    const vehicles = Array.from(vehicleMap.values());
+
+    console.log(`Caching ${vehicles.length} NSW buses`);
+
+    await batchUpsert(vehicles);
+
+  } catch (err) {
+    console.error("NSW Polling Error:", err);
   }
+}
 
-  res.json({
-    fleet,
-    operators: matches.map(b => b.operator)
-  });
-});
+/*
+=================================================
+START POLLING
+=================================================
+*/
+
+setInterval(pollVicGTFS, 60000);
+setInterval(pollNswGTFS, 60000);
+
+pollVicGTFS();
+pollNswGTFS();
 
 /*
 ----------------------------------------
-GET BUS (VIC) — DATABASE ONLY
+GET BUS (VIC) — DATABASE
 ----------------------------------------
 */
+
 app.get("/bus/:fleet/:operator", async (req, res) => {
   try {
     const fleet = req.params.fleet.trim();
@@ -147,12 +194,11 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       return res.json({ error: "fleet_not_found" });
     }
 
-    const normalize = (rego) =>
-      rego?.toUpperCase().replace(/^0+/, "");
-
     const { data } = await supabase
       .from("vehicles")
-      .select("*");
+      .select("*")
+      .eq("rego", match.rego)
+      .single();
 
     if (!data) {
       return res.json({
@@ -161,28 +207,18 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       });
     }
 
-    const found = data.find(
-      v => normalize(v.rego) === normalize(match.rego)
-    );
-
-    if (!found) {
-      return res.json({
-        error: "bus_not_active",
-        searchingForRego: match.rego
-      });
-    }
-
     const now = Date.now();
-    const isLive = now - found.last_seen < 120000;
+    const isLive = now - data.last_seen < 120000;
 
     return res.json({
       status: isLive ? "live" : "offline",
+      state: data.state,
       fleet,
       operator: match.operator,
       rego: match.rego,
-      latitude: found.latitude,
-      longitude: found.longitude,
-      lastSeen: found.last_seen
+      latitude: data.latitude,
+      longitude: data.longitude,
+      lastSeen: data.last_seen
     });
 
   } catch (error) {
@@ -196,6 +232,7 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
 START SERVER
 ----------------------------------------
 */
+
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
 });
