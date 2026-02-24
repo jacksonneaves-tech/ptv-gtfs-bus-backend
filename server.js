@@ -111,19 +111,23 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
 
 /*
 ----------------------------------------
-GET NSW BUS BY REGO
+GET NSW BUS BY FLEXIBLE REGO
 ----------------------------------------
 */
-app.get("/nsw/:digits", async (req, res) => {
+app.get("/nsw/:input", async (req, res) => {
   try {
-    const digits = req.params.digits.trim();
-    const fullRego = digits + "MO";
+    const userInput = req.params.input.trim().toUpperCase();
+
+    if (!process.env.TFNSW_API_KEY) {
+      return res.status(500).json({ error: "missing_tfnsw_api_key" });
+    }
 
     const response = await fetch(
       "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses",
       {
         headers: {
-          Authorization: `apikey ${process.env.TFNSW_API_KEY}`
+          Authorization: `apikey ${process.env.TFNSW_API_KEY}`,
+          Accept: "application/x-protobuf"
         }
       }
     );
@@ -135,11 +139,27 @@ app.get("/nsw/:digits", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    const match = feed.entity
-      .filter(e => e.vehicle)
-      .find(e =>
-        e.vehicle.vehicle?.id?.toUpperCase().includes(fullRego)
-      );
+    const normalize = (str) =>
+      str?.toUpperCase().replace(/[^A-Z0-9]/g, "");
+
+    const cleanInput = normalize(userInput);
+
+    let match = null;
+
+    for (const entity of feed.entity) {
+      if (!entity.vehicle) continue;
+
+      const rego =
+        normalize(entity.vehicle.vehicle?.licensePlate) ||
+        normalize(entity.vehicle.vehicle?.id);
+
+      if (!rego) continue;
+
+      if (rego.includes(cleanInput)) {
+        match = entity.vehicle;
+        break;
+      }
+    }
 
     if (!match) {
       return res.json({ error: "nsw_not_found" });
@@ -147,18 +167,19 @@ app.get("/nsw/:digits", async (req, res) => {
 
     res.json({
       state: "NSW",
-      rego: fullRego,
-      latitude: match.vehicle.position.latitude,
-      longitude: match.vehicle.position.longitude,
-      timestamp: match.vehicle.timestamp
+      rego:
+        match.vehicle?.licensePlate ||
+        match.vehicle?.id,
+      latitude: match.position?.latitude,
+      longitude: match.position?.longitude,
+      timestamp: match.timestamp
     });
 
   } catch (error) {
-    console.error(error);
+    console.error("NSW ERROR:", error);
     res.status(500).json({ error: "nsw_server_error" });
   }
 });
-
 /*
 ----------------------------------------
 START SERVER
