@@ -273,11 +273,9 @@ app.get("/nsw/:input", async (req, res) => {
       return res.json({ error: "nsw_not_found" });
     }
 
-   const matches = data.filter(v => {
-  const regoClean = normalize(v.rego);
-  const digitMatch = regoClean.match(/\d{4}/);
-  return digitMatch && digitMatch[0] === cleanInput;
-});
+   const matches = data.filter(v =>
+  normalize(v.rego).includes(cleanInput)
+);
 
     if (matches.length === 0) {
       return res.json({ error: "nsw_not_found" });
