@@ -55,7 +55,7 @@ async function pollVicGTFS() {
       const latitude = entity.vehicle.position?.latitude;
       const longitude = entity.vehicle.position?.longitude;
 
-      if (!rego || !latitude || !longitude) continue;
+      if (!rego || latitude == null || longitude == null) continue;
 
       vehiclesToUpsert.push({
         rego,
@@ -65,13 +65,21 @@ async function pollVicGTFS() {
       });
     }
 
-    if (vehiclesToUpsert.length > 0) {
+    console.log(`Preparing to cache ${vehiclesToUpsert.length} buses`);
+
+    // ✅ Batch in chunks of 500
+    const chunkSize = 500;
+
+    for (let i = 0; i < vehiclesToUpsert.length; i += chunkSize) {
+      const chunk = vehiclesToUpsert.slice(i, i + chunkSize);
+
       await supabase
         .from("vehicles")
-        .upsert(vehiclesToUpsert, { onConflict: "rego" });
+        .upsert(chunk, { onConflict: "rego" });
     }
 
     console.log(`Cached ${vehiclesToUpsert.length} VIC buses`);
+
   } catch (err) {
     console.error("VIC Polling Error:", err);
   }
