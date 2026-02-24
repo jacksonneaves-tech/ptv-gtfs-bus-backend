@@ -133,11 +133,12 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       return res.json({ error: "fleet_not_found" });
     }
 
+    const normalize = (rego) =>
+      rego?.toUpperCase().replace(/^0+/, "");
+
     const { data } = await supabase
       .from("vehicles")
-      .select("*")
-      .eq("rego", match.rego)
-      .single();
+      .select("*");
 
     if (!data) {
       return res.json({
@@ -146,17 +147,28 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       });
     }
 
+    const found = data.find(
+      v => normalize(v.rego) === normalize(match.rego)
+    );
+
+    if (!found) {
+      return res.json({
+        error: "bus_not_active",
+        searchingForRego: match.rego
+      });
+    }
+
     const now = Date.now();
-    const isLive = now - data.last_seen < 120000; // 2 minutes
+    const isLive = now - found.last_seen < 120000;
 
     return res.json({
       status: isLive ? "live" : "offline",
       fleet,
       operator: match.operator,
       rego: match.rego,
-      latitude: data.latitude,
-      longitude: data.longitude,
-      lastSeen: data.last_seen
+      latitude: found.latitude,
+      longitude: found.longitude,
+      lastSeen: found.last_seen
     });
 
   } catch (error) {
