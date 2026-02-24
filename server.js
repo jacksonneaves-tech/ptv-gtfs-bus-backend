@@ -273,26 +273,74 @@ app.get("/nsw/:input", async (req, res) => {
       return res.json({ error: "nsw_not_found" });
     }
 
-    const match = data.find(v =>
+    const matches = data.filter(v =>
       normalize(v.rego).includes(cleanInput)
     );
 
-    if (!match) {
+    if (matches.length === 0) {
       return res.json({ error: "nsw_not_found" });
     }
 
-   const now = Date.now();
-const isLive = now - match.last_seen < 120000;
+    if (matches.length === 1) {
+      const bus = matches[0];
+      const now = Date.now();
+      const isLive = now - bus.last_seen < 120000;
 
-return res.json({
-  latitude: match.latitude,
-  longitude: match.longitude,
-  timestamp: match.last_seen,
-  status: isLive ? "live" : "offline"
-});
+      return res.json({
+        single: true,
+        rego: bus.rego,
+        latitude: bus.latitude,
+        longitude: bus.longitude,
+        timestamp: bus.last_seen,
+        status: isLive ? "live" : "offline"
+      });
+    }
+
+    // Multiple matches
+    return res.json({
+      multiple: true,
+      options: matches.map(v => v.rego)
+    });
 
   } catch (error) {
     console.error("NSW lookup error:", error);
+    res.status(500).json({ error: "nsw_server_error" });
+  }
+});
+
+/*
+----------------------------------------
+GET NSW BUS BY EXACT REGO
+----------------------------------------
+*/
+
+app.get("/nsw-exact/:rego", async (req, res) => {
+  try {
+    const rego = req.params.rego.trim().toUpperCase();
+
+    const { data } = await supabase
+      .from("vehicles")
+      .select("*")
+      .eq("rego", rego)
+      .eq("state", "NSW")
+      .single();
+
+    if (!data) {
+      return res.json({ error: "nsw_not_found" });
+    }
+
+    const now = Date.now();
+    const isLive = now - data.last_seen < 120000;
+
+    return res.json({
+      latitude: data.latitude,
+      longitude: data.longitude,
+      timestamp: data.last_seen,
+      status: isLive ? "live" : "offline"
+    });
+
+  } catch (error) {
+    console.error("NSW exact lookup error:", error);
     res.status(500).json({ error: "nsw_server_error" });
   }
 });
