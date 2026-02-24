@@ -228,6 +228,50 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
 
 /*
 ----------------------------------------
+GET NSW BUS (FROM DATABASE)
+----------------------------------------
+*/
+
+app.get("/nsw/:input", async (req, res) => {
+  try {
+    const userInput = req.params.input.trim().toUpperCase();
+
+    const normalize = (str) =>
+      str?.toUpperCase().replace(/[^A-Z0-9]/g, "");
+
+    const cleanInput = normalize(userInput);
+
+    const { data } = await supabase
+      .from("vehicles")
+      .select("*")
+      .eq("state", "NSW");
+
+    if (!data) {
+      return res.json({ error: "nsw_not_found" });
+    }
+
+    const match = data.find(v =>
+      normalize(v.rego).includes(cleanInput)
+    );
+
+    if (!match) {
+      return res.json({ error: "nsw_not_found" });
+    }
+
+    return res.json({
+      latitude: match.latitude,
+      longitude: match.longitude,
+      timestamp: match.last_seen
+    });
+
+  } catch (error) {
+    console.error("NSW lookup error:", error);
+    res.status(500).json({ error: "nsw_server_error" });
+  }
+});
+
+/*
+----------------------------------------
 START SERVER
 ----------------------------------------
 */
