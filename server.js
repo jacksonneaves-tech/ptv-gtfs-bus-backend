@@ -69,13 +69,24 @@ async function pollVicGTFS() {
 
     // ✅ Batch in chunks of 500
     const chunkSize = 500;
+    let chunkCounter = 0;
 
+    // Process in batches
     for (let i = 0; i < vehiclesToUpsert.length; i += chunkSize) {
       const chunk = vehiclesToUpsert.slice(i, i + chunkSize);
+      chunkCounter++;
 
-      await supabase
+      console.log(`Upserting chunk ${chunkCounter}...`);
+
+      const { error } = await supabase
         .from("vehicles")
         .upsert(chunk, { onConflict: "rego" });
+
+      if (error) {
+        console.error(`Error in upsert chunk ${chunkCounter}:`, error);
+      } else {
+        console.log(`Successfully cached chunk ${chunkCounter}`);
+      }
     }
 
     console.log(`Cached ${vehiclesToUpsert.length} VIC buses`);
