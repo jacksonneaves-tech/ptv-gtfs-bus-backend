@@ -251,38 +251,39 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
 
 /*
 ----------------------------------------
-GET NSW BUS (FROM DATABASE)
+GET NSW BUS (SMART MATCHING)
 ----------------------------------------
 */
 
 app.get("/nsw/:input", async (req, res) => {
   try {
-    const userInput = req.params.input.trim().toUpperCase();
+    const rawInput = req.params.input.trim();
 
-    const normalize = (str) =>
-      str?.toUpperCase().replace(/[^A-Z0-9]/g, "");
+    // Ensure only 4 digits allowed
+    if (!/^\d{4}$/.test(rawInput)) {
+      return res.json({ error: "nsw_not_found" });
+    }
 
-    const cleanInput = normalize(userInput);
+    const cleanInput = rawInput;
 
-    const { data } = await supabase
+    // Let Supabase do the matching
+    const { data, error } = await supabase
       .from("vehicles")
       .select("*")
-      .eq("state", "NSW");
+      .eq("state", "NSW")
+      .ilike("rego", `%${cleanInput}%`);
 
-    if (!data) {
+    if (error) {
+      console.error("NSW DB error:", error);
       return res.json({ error: "nsw_not_found" });
     }
 
-   const matches = data.filter(v =>
-  normalize(v.rego).includes(cleanInput)
-);
-
-    if (matches.length === 0) {
+    if (!data || data.length === 0) {
       return res.json({ error: "nsw_not_found" });
     }
 
-    if (matches.length === 1) {
-      const bus = matches[0];
+    if (data.length === 1) {
+      const bus = data[0];
       const now = Date.now();
       const isLive = now - bus.last_seen < 120000;
 
@@ -299,11 +300,11 @@ app.get("/nsw/:input", async (req, res) => {
     // Multiple matches
     return res.json({
       multiple: true,
-      options: matches.map(v => v.rego)
+      options: data.map(v => v.rego)
     });
 
-  } catch (error) {
-    console.error("NSW lookup error:", error);
+  } catch (err) {
+    console.error("NSW lookup error:", err);
     res.status(500).json({ error: "nsw_server_error" });
   }
 });
