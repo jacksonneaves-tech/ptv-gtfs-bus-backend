@@ -6,7 +6,6 @@ import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 import { createClient } from "@supabase/supabase-js";
 
 const app = express();
-
 app.use(cors({ origin: "*" }));
 
 const PORT = process.env.PORT || 3000;
@@ -16,22 +15,73 @@ const API_KEY = "1a9699bf-54d2-42a4-a170-5416f7f6993a";
 const GTFS_URL =
   "https://api.opendata.transport.vic.gov.au/opendata/public-transport/gtfs/realtime/v1/bus/vehicle-positions";
 
-// ==============================
-// SUPABASE CONNECTION
-// ==============================
-
 const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_ANON_KEY
 );
 
-// ==============================
-// LOAD FLEET MAP
-// ==============================
-
 const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
+
+/*
+=================================================
+BACKGROUND POLLING — CACHE ALL VIC BUSES
+=================================================
+*/
+
+async function pollVicGTFS() {
+  try {
+    console.log("Polling VIC GTFS...");
+
+    const response = await fetch(GTFS_URL, {
+      headers: { KeyId: API_KEY }
+    });
+
+    const buffer = await response.arrayBuffer();
+
+    const feed =
+      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
+        new Uint8Array(buffer)
+      );
+
+    const now = Date.now();
+    const vehiclesToUpsert = [];
+
+    for (const entity of feed.entity) {
+      if (!entity.vehicle) continue;
+
+      const rego = entity.vehicle.vehicle?.id;
+      const latitude = entity.vehicle.position?.latitude;
+      const longitude = entity.vehicle.position?.longitude;
+
+      if (!rego || !latitude || !longitude) continue;
+
+      vehiclesToUpsert.push({
+        rego,
+        latitude,
+        longitude,
+        last_seen: now
+      });
+    }
+
+    if (vehiclesToUpsert.length > 0) {
+      await supabase
+        .from("vehicles")
+        .upsert(vehiclesToUpsert, { onConflict: "rego" });
+    }
+
+    console.log(`Cached ${vehiclesToUpsert.length} VIC buses`);
+  } catch (err) {
+    console.error("VIC Polling Error:", err);
+  }
+}
+
+// Poll every 60 seconds
+setInterval(pollVicGTFS, 60000);
+
+// Run immediately on startup
+pollVicGTFS();
 
 /*
 ----------------------------------------
@@ -57,7 +107,7 @@ app.get("/operators/:fleet", (req, res) => {
 
 /*
 ----------------------------------------
-GET BUS LOCATION (VIC)
+GET BUS (VIC) — DATABASE ONLY
 ----------------------------------------
 */
 app.get("/bus/:fleet/:operator", async (req, res) => {
@@ -75,160 +125,35 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
       return res.json({ error: "fleet_not_found" });
     }
 
-    const response = await fetch(GTFS_URL, {
-      headers: { KeyId: API_KEY }
-    });
-
-    const buffer = await response.arrayBuffer();
-
-    const feed =
-      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
-        new Uint8Array(buffer)
-      );
-
-    const normalize = (rego) =>
-      rego?.toUpperCase().replace(/^0+/, "");
-
-    const vehicle = feed.entity.find(e =>
-      e.vehicle &&
-      e.vehicle.vehicle &&
-      normalize(e.vehicle.vehicle.id) === normalize(match.rego)
-    );
-
-    // ======================
-    // IF LIVE
-    // ======================
-    if (vehicle) {
-      const latitude = vehicle.vehicle.position?.latitude;
-      const longitude = vehicle.vehicle.position?.longitude;
-      const now = Date.now();
-
-      // UPSERT into Supabase
-      await supabase
-        .from("vehicles")
-        .upsert({
-          rego: match.rego,
-          latitude,
-          longitude,
-          last_seen: now,
-          fleet,
-          operator: match.operator
-        });
-
-      return res.json({
-        status: "live",
-        fleet,
-        operator: match.operator,
-        rego: match.rego,
-        routeId: vehicle.vehicle.trip?.routeId || null,
-        latitude,
-        longitude,
-        timestamp: vehicle.vehicle.timestamp
-      });
-    }
-
-    // ======================
-    // IF OFFLINE → CHECK DB
-    // ======================
-
     const { data } = await supabase
       .from("vehicles")
       .select("*")
       .eq("rego", match.rego)
       .single();
 
-    if (data) {
+    if (!data) {
       return res.json({
-        status: "offline",
-        fleet,
-        operator: data.operator,
-        rego: match.rego,
-        latitude: data.latitude,
-        longitude: data.longitude,
-        lastSeen: data.last_seen
+        error: "bus_not_active",
+        searchingForRego: match.rego
       });
     }
 
+    const now = Date.now();
+    const isLive = now - data.last_seen < 120000; // 2 minutes
+
     return res.json({
-      error: "bus_not_active",
-      searchingForRego: match.rego
+      status: isLive ? "live" : "offline",
+      fleet,
+      operator: match.operator,
+      rego: match.rego,
+      latitude: data.latitude,
+      longitude: data.longitude,
+      lastSeen: data.last_seen
     });
 
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "server_error" });
-  }
-});
-
-/*
-----------------------------------------
-NSW ENDPOINT (UNCHANGED)
-----------------------------------------
-*/
-app.get("/nsw/:input", async (req, res) => {
-  try {
-    const userInput = req.params.input.trim().toUpperCase();
-
-    if (!process.env.TFNSW_API_KEY) {
-      return res.status(500).json({ error: "missing_tfnsw_api_key" });
-    }
-
-    const response = await fetch(
-      "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses",
-      {
-        headers: {
-          Authorization: `apikey ${process.env.TFNSW_API_KEY}`,
-          Accept: "application/x-protobuf"
-        }
-      }
-    );
-
-    const buffer = await response.arrayBuffer();
-
-    const feed =
-      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
-        new Uint8Array(buffer)
-      );
-
-    const normalize = (str) =>
-      str?.toUpperCase().replace(/[^A-Z0-9]/g, "");
-
-    const cleanInput = normalize(userInput);
-
-    let match = null;
-
-    for (const entity of feed.entity) {
-      if (!entity.vehicle) continue;
-
-      const rego =
-        normalize(entity.vehicle.vehicle?.licensePlate) ||
-        normalize(entity.vehicle.vehicle?.id);
-
-      if (!rego) continue;
-
-      if (rego.includes(cleanInput)) {
-        match = entity.vehicle;
-        break;
-      }
-    }
-
-    if (!match) {
-      return res.json({ error: "nsw_not_found" });
-    }
-
-    res.json({
-      state: "NSW",
-      rego:
-        match.vehicle?.licensePlate ||
-        match.vehicle?.id,
-      latitude: match.position?.latitude,
-      longitude: match.position?.longitude,
-      timestamp: match.timestamp
-    });
-
-  } catch (error) {
-    console.error("NSW ERROR:", error);
-    res.status(500).json({ error: "nsw_server_error" });
   }
 });
 
