@@ -281,11 +281,15 @@ app.get("/nsw/:input", async (req, res) => {
       return res.json({ error: "nsw_not_found" });
     }
 
-    return res.json({
-      latitude: match.latitude,
-      longitude: match.longitude,
-      timestamp: match.last_seen
-    });
+   const now = Date.now();
+const isLive = now - match.last_seen < 120000;
+
+return res.json({
+  latitude: match.latitude,
+  longitude: match.longitude,
+  timestamp: match.last_seen,
+  status: isLive ? "live" : "offline"
+});
 
   } catch (error) {
     console.error("NSW lookup error:", error);
