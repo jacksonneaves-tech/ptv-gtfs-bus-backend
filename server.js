@@ -108,6 +108,57 @@ app.get("/bus/:fleet/:operator", async (req, res) => {
     res.status(500).json({ error: "server_error" });
   }
 });
+
+/*
+----------------------------------------
+GET NSW BUS BY REGO
+----------------------------------------
+*/
+app.get("/nsw/:digits", async (req, res) => {
+  try {
+    const digits = req.params.digits.trim();
+    const fullRego = digits + "MO";
+
+    const response = await fetch(
+      "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses",
+      {
+        headers: {
+          Authorization: `apikey ${process.env.TFNSW_API_KEY}`
+        }
+      }
+    );
+
+    const buffer = await response.arrayBuffer();
+
+    const feed =
+      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
+        new Uint8Array(buffer)
+      );
+
+    const match = feed.entity
+      .filter(e => e.vehicle)
+      .find(e =>
+        e.vehicle.vehicle?.id?.toUpperCase().includes(fullRego)
+      );
+
+    if (!match) {
+      return res.json({ error: "nsw_not_found" });
+    }
+
+    res.json({
+      state: "NSW",
+      rego: fullRego,
+      latitude: match.vehicle.position.latitude,
+      longitude: match.vehicle.position.longitude,
+      timestamp: match.vehicle.timestamp
+    });
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "nsw_server_error" });
+  }
+});
+
 /*
 ----------------------------------------
 START SERVER
