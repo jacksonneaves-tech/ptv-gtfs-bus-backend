@@ -175,6 +175,29 @@ pollNswGTFS();
 
 /*
 ----------------------------------------
+GET OPERATORS FOR FLEET (VIC)
+----------------------------------------
+*/
+
+app.get("/operators/:fleet", (req, res) => {
+  const fleet = req.params.fleet.trim();
+
+  const matches = fleetMap.filter(
+    b => String(b.fleet).trim() === fleet
+  );
+
+  if (matches.length === 0) {
+    return res.json({ error: "fleet_not_found" });
+  }
+
+  res.json({
+    fleet,
+    operators: matches.map(b => b.operator)
+  });
+});
+
+/*
+----------------------------------------
 GET BUS (VIC) — DATABASE
 ----------------------------------------
 */
