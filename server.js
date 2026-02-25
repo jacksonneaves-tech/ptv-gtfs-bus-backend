@@ -27,27 +27,6 @@ const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
 
-/*
-=================================================
-PREMIUM SIGNALR CACHE (VIC ONLY)
-=================================================
-*/
-
-const premiumCache = new Map();
-
-function extractFleet(externalId) {
-  if (!externalId) return null;
-
-  const parts = externalId.split("-");
-  if (parts.length < 2) return null;
-
-  const tail = parts[1];
-
-  // Remove leading zeros
-  const cleaned = tail.replace(/^0+/, "");
-
-  return cleaned || null;
-}
 
 /*
 =================================================
@@ -374,76 +353,12 @@ app.get("/nsw-exact/:rego", async (req, res) => {
   }
 });
 
-/*
-=================================================
-PREMIUM SIGNALR CONNECTION
-=================================================
-*/
-
-async function startPremiumConnection() {
-  try {
-    console.log("Connecting to Premium SignalR...");
-
-    const token = Buffer
-      .from(`${process.env.PREMIUM_USER}:${process.env.PREMIUM_PASS}`)
-      .toString("base64");
-
-    const connection = new signalR.HubConnectionBuilder()
-      .withUrl(
-        `https://${process.env.PREMIUM_HOST}/Tmix.Cap.ExternalApi/signalr/hubs`,
-        {
-          accessTokenFactory: () => token
-        }
-      )
-      .withAutomaticReconnect()
-      .build();
-
-    connection.on("OnMsgs", (msgs) => {
-
-      msgs.forEach(msg => {
-
-        if (msg.Header?.MessageName !== "MsgVehicleEvent") return;
-
-        const externalId = msg.Message?.Vehicle?.ExternalId;
-        const lat = msg.Message?.Position?.Latitude;
-        const lng = msg.Message?.Position?.Longitude;
-
-        if (!externalId || lat == null || lng == null) return;
-
-        const fleet = extractFleet(externalId);
-        if (!fleet) return;
-
-        // Store temporarily using fleet as key (we convert later)
-        premiumCache.set(fleet, {
-          latitude: lat,
-          longitude: lng,
-          last_seen: Date.now()
-        });
-
-      });
-
-    });
-
-    await connection.start();
-
-    await connection.invoke("Subscribe", {
-      Version: "1.0",
-      MessageFilter: {}
-    });
-
-    console.log("Premium SignalR connected successfully");
-
-  } catch (err) {
-    console.error("Premium connection error:", err);
-  }
-}
 
 /*
 ----------------------------------------
 START SERVER
 ----------------------------------------
 */
-startPremiumConnection();
 
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
