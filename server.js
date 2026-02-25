@@ -391,11 +391,11 @@ function startPremiumConnection() {
       .from(`${process.env.PREMIUM_USER}:${process.env.PREMIUM_PASS}`)
       .toString("base64");
 
-    const baseUrl = `https://${process.env.PREMIUM_HOST}`;
+    const baseUrl = `https://${process.env.PREMIUM_HOST}/Tmix.Cap.ExternalApi`;
 
     const client = new SignalRClient(
       baseUrl,
-      ['/Tmix.Cap.ExternalApi/signalr'],
+      ['signalr'],
       {
         headers: {
           Authorization: "Basic " + token
@@ -403,7 +403,16 @@ function startPremiumConnection() {
       }
     );
 
-    client.connection.hub.on('OnMsgs', (msgs) => {
+    client.on('connected', () => {
+      console.log("Premium SignalR connected");
+
+      client.call('realtimehub', 'Subscribe', {
+        Version: "1.0",
+        MessageFilter: {}
+      });
+    });
+
+    client.on('realtimehub', 'OnMsgs', (msgs) => {
       console.log("Received premium message batch");
 
       msgs.forEach(msg => {
@@ -428,13 +437,8 @@ function startPremiumConnection() {
       });
     });
 
-    client.connection.hub.start().done(() => {
-      console.log("Premium SignalR connected");
-
-      client.connection.hub.invoke('Subscribe', {
-        Version: "1.0",
-        MessageFilter: {}
-      });
+    client.on('error', (err) => {
+      console.error("Premium SignalR error:", err);
     });
 
   } catch (err) {
