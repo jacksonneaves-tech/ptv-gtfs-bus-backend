@@ -4,7 +4,6 @@ import fs from "fs";
 import cors from "cors";
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 import { createClient } from "@supabase/supabase-js";
-import * as signalR from "@microsoft/signalr";
 
 const app = express();
 app.use(cors({ origin: "*" }));
