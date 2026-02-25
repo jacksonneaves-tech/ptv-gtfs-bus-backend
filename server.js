@@ -7,7 +7,7 @@ import { createClient } from "@supabase/supabase-js";
 
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
-const SignalRClient = require("signalr-client");
+const SignalRClient = require("signalr-client").client;
 
 const app = express();
 app.use(cors({ origin: "*" }));
