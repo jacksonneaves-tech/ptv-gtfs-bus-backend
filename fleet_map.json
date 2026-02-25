@@ -815,6 +815,116 @@
     "operator": "Dysons"
   },
   {
+    "fleet": 1360,
+    "rego": "BS11RB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1361,
+    "rego": "BS11RC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1362,
+    "rego": "BS14JX",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1363,
+    "rego": "8843MO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1364,
+    "rego": "BS14DL",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1369,
+    "rego": "BS12OK",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1370,
+    "rego": "BS14JB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1372,
+    "rego": "BS14JC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1373,
+    "rego": "BS14JU",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1374,
+    "rego": "BS14JN",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1375,
+    "rego": "BS14SX",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1376,
+    "rego": "BS14TC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1377,
+    "rego": "BS14HQ",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1378,
+    "rego": "BS14HP",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1381,
+    "rego": "9790MO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1382,
+    "rego": "9791MO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1384,
+    "rego": "BS14RX",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1386,
+    "rego": "BS14FW",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1387,
+    "rego": "BS11NB",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1389,
+    "rego": "BS11AC",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1390,
+    "rego": "BS14RO",
+    "operator": "Dysons"
+  },
+  {
+    "fleet": 1392,
+    "rego": "BS14RF",
+    "operator": "Dysons"
+  },
+  {
     "fleet": 701,
     "rego": "BS13MB",
     "operator": "Dysons"
