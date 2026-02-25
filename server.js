@@ -132,9 +132,15 @@ async function pollNswGTFS() {
     for (const entity of feed.entity) {
       if (!entity.vehicle) continue;
 
-      const rego =
-        entity.vehicle.vehicle?.licensePlate ||
-        entity.vehicle.vehicle?.id;
+      const rawRego = entity.vehicle.vehicle?.licensePlate;
+
+if (!rawRego) continue;
+
+// Clean and validate rego
+const rego = rawRego.trim().toUpperCase();
+
+// Reject weird internal IDs
+if (!/^[A-Z0-9]{4,8}$/.test(rego)) continue;
 
       const latitude = entity.vehicle.position?.latitude;
       const longitude = entity.vehicle.position?.longitude;
