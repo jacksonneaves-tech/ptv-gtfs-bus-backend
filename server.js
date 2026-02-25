@@ -5,8 +5,9 @@ import cors from "cors";
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 import { createClient } from "@supabase/supabase-js";
 
-import pkg from "signalr-client";
-const SignalRClient = pkg.default || pkg;
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const SignalRClient = require("signalr-client");
 
 const app = express();
 app.use(cors({ origin: "*" }));
