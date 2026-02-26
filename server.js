@@ -5,10 +5,6 @@ import cors from "cors";
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 import { createClient } from "@supabase/supabase-js";
 
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-const SignalRClient = require("signalr-client").client;
-
 const app = express();
 app.use(cors({ origin: "*" }));
 
@@ -31,26 +27,6 @@ const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
 
-/*
-=================================================
-PREMIUM SIGNALR CACHE (VIC ONLY)
-=================================================
-*/
-
-const premiumCache = new Map();
-
-function extractFleet(externalId) {
-  if (!externalId) return null;
-
-  const parts = externalId.split("-");
-  if (parts.length < 2) return null;
-
-  const tail = parts[1];
-
-  const cleaned = tail.replace(/^0+/, "");
-
-  return cleaned || null;
-}
 
 /*
 =================================================
@@ -378,80 +354,10 @@ app.get("/nsw-exact/:rego", async (req, res) => {
 });
 
 /*
-=================================================
-PREMIUM SIGNALR CONNECTION (CLASSIC ASP.NET)
-=================================================
-*/
-
-function startPremiumConnection() {
-  try {
-    console.log("Connecting to Premium SignalR (classic)...");
-
-    const token = Buffer
-      .from(`${process.env.PREMIUM_USER}:${process.env.PREMIUM_PASS}`)
-      .toString("base64");
-
-    const baseUrl = `https://${process.env.PREMIUM_HOST}/Tmix.Cap.ExternalApi`;
-
-    const client = new SignalRClient(
-      baseUrl,
-      ['signalr'],
-      {
-        headers: {
-          Authorization: "Basic " + token
-        }
-      }
-    );
-
-    client.on('connected', () => {
-      console.log("Premium SignalR connected");
-
-      client.call('realtimehub', 'Subscribe', {
-        Version: "1.0",
-        MessageFilter: {}
-      });
-    });
-
-    client.on('realtimehub', 'OnMsgs', (msgs) => {
-      console.log("Received premium message batch");
-
-      msgs.forEach(msg => {
-
-        if (msg.Header?.MessageName !== "MsgVehicleEvent") return;
-
-        const externalId = msg.Message?.Vehicle?.ExternalId;
-        const lat = msg.Message?.Position?.Latitude;
-        const lng = msg.Message?.Position?.Longitude;
-
-        if (!externalId || lat == null || lng == null) return;
-
-        const fleet = extractFleet(externalId);
-        if (!fleet) return;
-
-        premiumCache.set(fleet, {
-          latitude: lat,
-          longitude: lng,
-          last_seen: Date.now()
-        });
-
-      });
-    });
-
-    client.on('error', (err) => {
-      console.error("Premium SignalR error:", err);
-    });
-
-  } catch (err) {
-    console.error("Premium connection setup error:", err);
-  }
-}
-
-/*
 ----------------------------------------
 START SERVER
 ----------------------------------------
 */
-startPremiumConnection();
 
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
