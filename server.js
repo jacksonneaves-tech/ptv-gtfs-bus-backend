@@ -355,6 +355,69 @@ app.get("/nsw-exact/:rego", async (req, res) => {
 
 /*
 ----------------------------------------
+GET NEAREST BUS (VIC + NSW)
+----------------------------------------
+*/
+
+app.get("/nearest", async (req, res) => {
+  try {
+    const lat = parseFloat(req.query.lat);
+    const lng = parseFloat(req.query.lng);
+
+    if (isNaN(lat) || isNaN(lng)) {
+      return res.json({ error: "invalid_coordinates" });
+    }
+
+    // Get all cached vehicles
+    const { data, error } = await supabase
+      .from("vehicles")
+      .select("*");
+
+    if (error || !data || data.length === 0) {
+      return res.json({ error: "no_vehicles_available" });
+    }
+
+    let nearest = null;
+    let minDistance = Infinity;
+
+    for (const vehicle of data) {
+      if (!vehicle.latitude || !vehicle.longitude) continue;
+
+      const distance = Math.sqrt(
+        Math.pow(vehicle.latitude - lat, 2) +
+        Math.pow(vehicle.longitude - lng, 2)
+      );
+
+      if (distance < minDistance) {
+        minDistance = distance;
+        nearest = vehicle;
+      }
+    }
+
+    if (!nearest) {
+      return res.json({ error: "no_vehicle_found" });
+    }
+
+    const now = Date.now();
+    const isLive = now - nearest.last_seen < 120000;
+
+    return res.json({
+      rego: nearest.rego,
+      state: nearest.state,
+      latitude: nearest.latitude,
+      longitude: nearest.longitude,
+      timestamp: nearest.last_seen,
+      status: isLive ? "live" : "offline"
+    });
+
+  } catch (err) {
+    console.error("Nearest lookup error:", err);
+    res.status(500).json({ error: "server_error" });
+  }
+});
+
+/*
+----------------------------------------
 START SERVER
 ----------------------------------------
 */
