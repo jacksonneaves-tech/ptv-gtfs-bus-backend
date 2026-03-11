@@ -401,14 +401,28 @@ app.get("/nearest", async (req, res) => {
     const now = Date.now();
     const isLive = now - nearest.last_seen < 120000;
 
-    return res.json({
-      rego: nearest.rego,
-      state: nearest.state,
-      latitude: nearest.latitude,
-      longitude: nearest.longitude,
-      timestamp: nearest.last_seen,
-      status: isLive ? "live" : "offline"
-    });
+    // Lookup fleet number for VIC buses
+let fleet = null;
+
+if (nearest.state === "VIC") {
+  const match = fleetMap.find(
+    b => b.rego.trim().toUpperCase() === nearest.rego.trim().toUpperCase()
+  );
+
+  if (match) {
+    fleet = match.fleet;
+  }
+}
+
+return res.json({
+  rego: nearest.rego,
+  fleet: fleet,
+  state: nearest.state,
+  latitude: nearest.latitude,
+  longitude: nearest.longitude,
+  timestamp: nearest.last_seen,
+  status: isLive ? "live" : "offline"
+});
 
   } catch (err) {
     console.error("Nearest lookup error:", err);
