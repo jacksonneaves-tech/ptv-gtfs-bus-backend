@@ -27,6 +27,18 @@ const fleetMap = JSON.parse(
   fs.readFileSync("./fleet_map.json", "utf8")
 );
 
+const SKYBUS_REGOS = [
+"BS03XB","XS38AA","BS03XC","XS39AA","0081AO","130FB5","BS01DH",
+"XT44AI","XT46AI","XT94AK","XT59AM","XT20BJ","XT81BG","9025AO",
+"9028AO","XT53CC","XT55CC","BS00OG","BS00OE","BS01LS","BS01LT",
+"BS01LU","BS01LV","BS01WX","BS01WY","BS02IS","BS02IT","BS02IW",
+"BS02KH","BS02KI","BS02KJ","BS02YN","BS04BC","BS04BD","BS04NV",
+"BS04NW","BS08PP","BS08PO","BS08BI","BS08BH","BS09NK","BS12HF",
+"BS08PQ","BS13YA","BS04BA","BS04BB","BS04NN","BS04NO","BS04SZ",
+"BS04TA","BS04TB","BS04TC","BS04TD","BS04TE","BS04TF","BS04TG",
+"BS04TH","BS04TI","BS04TJ","BS06OG","BS06OH","BS06OZ","BS14JF",
+"BS14JG","BS14JJ","BS14JH","BS14JE","BS14JI"
+];
 
 /*
 =================================================
@@ -456,6 +468,66 @@ app.get("/debug/vic/raw", async (req, res) => {
     console.error(err);
     res.status(500).json({ error: "debug_failed" });
   }
+});
+
+/*
+----------------------------------------
+DEBUG: SEARCH FOR SKYBUS FLEET
+----------------------------------------
+*/
+
+app.get("/debug/vic/skybus-fleet", async (req, res) => {
+
+  try {
+
+    const response = await fetch(VIC_GTFS_URL, {
+      headers: { KeyId: API_KEY }
+    });
+
+    const buffer = await response.arrayBuffer();
+
+    const feed =
+      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
+        new Uint8Array(buffer)
+      );
+
+    const matches = [];
+
+    for (const entity of feed.entity) {
+
+      if (!entity.vehicle) continue;
+
+      const rego = entity.vehicle.vehicle?.id;
+
+      if (!rego) continue;
+
+      const cleanRego = rego.trim().toUpperCase();
+
+      if (SKYBUS_REGOS.includes(cleanRego)) {
+
+        matches.push({
+          rego: cleanRego,
+          route: entity.vehicle.trip?.routeId,
+          tripId: entity.vehicle.trip?.tripId,
+          latitude: entity.vehicle.position?.latitude,
+          longitude: entity.vehicle.position?.longitude,
+          timestamp: entity.vehicle.timestamp
+        });
+
+      }
+    }
+
+    res.json({
+      vehiclesInFeed: feed.entity.length,
+      skybusMatches: matches.length,
+      vehicles: matches
+    });
+
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "skybus_scan_failed" });
+  }
+
 });
 
 /*
