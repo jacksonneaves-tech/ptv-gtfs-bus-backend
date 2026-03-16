@@ -472,11 +472,11 @@ app.get("/debug/vic/raw", async (req, res) => {
 
 /*
 ----------------------------------------
-DEBUG: SEARCH FOR SKYBUS FLEET
+DEBUG: FIND NON-STANDARD VEHICLE IDS
 ----------------------------------------
 */
 
-app.get("/debug/vic/skybus-fleet", async (req, res) => {
+app.get("/debug/vic/non-standard-ids", async (req, res) => {
 
   try {
 
@@ -491,41 +491,52 @@ app.get("/debug/vic/skybus-fleet", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    const matches = [];
+    const normalRegos = [];
+    const anomalies = [];
+
+    const modernPattern = /^BS\d{2}[A-Z]{2}$/;
+    const oldPattern = /^\d{4}AO$/;
 
     for (const entity of feed.entity) {
 
       if (!entity.vehicle) continue;
 
-      const rego = entity.vehicle.vehicle?.id;
+      const id = entity.vehicle.vehicle?.id;
 
-      if (!rego) continue;
+      if (!id) continue;
 
-      const cleanRego = rego.trim().toUpperCase();
+      const clean = id.trim().toUpperCase();
 
-      if (SKYBUS_REGOS.includes(cleanRego)) {
+      if (modernPattern.test(clean) || oldPattern.test(clean)) {
 
-        matches.push({
-          rego: cleanRego,
+        normalRegos.push(clean);
+
+      } else {
+
+        anomalies.push({
+          id: clean,
           route: entity.vehicle.trip?.routeId,
           tripId: entity.vehicle.trip?.tripId,
           latitude: entity.vehicle.position?.latitude,
-          longitude: entity.vehicle.position?.longitude,
-          timestamp: entity.vehicle.timestamp
+          longitude: entity.vehicle.position?.longitude
         });
 
       }
+
     }
 
     res.json({
-      vehiclesInFeed: feed.entity.length,
-      skybusMatches: matches.length,
-      vehicles: matches
+      totalVehicles: feed.entity.length,
+      normalRegosDetected: normalRegos.length,
+      anomaliesDetected: anomalies.length,
+      anomalies
     });
 
   } catch (err) {
+
     console.error(err);
-    res.status(500).json({ error: "skybus_scan_failed" });
+    res.status(500).json({ error: "scan_failed" });
+
   }
 
 });
