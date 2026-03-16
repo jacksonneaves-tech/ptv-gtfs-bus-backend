@@ -432,6 +432,34 @@ return res.json({
 
 /*
 ----------------------------------------
+DEBUG: RAW GTFS ENTITY
+----------------------------------------
+*/
+
+app.get("/debug/vic/raw", async (req, res) => {
+  try {
+
+    const response = await fetch(VIC_GTFS_URL, {
+      headers: { KeyId: API_KEY }
+    });
+
+    const buffer = await response.arrayBuffer();
+
+    const feed =
+      GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(
+        new Uint8Array(buffer)
+      );
+
+    res.json(feed.entity[0]);
+
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "debug_failed" });
+  }
+});
+
+/*
+----------------------------------------
 START SERVER
 ----------------------------------------
 */
