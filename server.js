@@ -472,11 +472,11 @@ app.get("/debug/vic/raw", async (req, res) => {
 
 /*
 ----------------------------------------
-DEBUG: FIND NON-STANDARD VEHICLE IDS
+DEBUG: LIST ALL ROUTES IN VIC GTFS
 ----------------------------------------
 */
 
-app.get("/debug/vic/non-standard-ids", async (req, res) => {
+app.get("/debug/vic/routes", async (req, res) => {
 
   try {
 
@@ -491,51 +491,27 @@ app.get("/debug/vic/non-standard-ids", async (req, res) => {
         new Uint8Array(buffer)
       );
 
-    const normalRegos = [];
-    const anomalies = [];
-
-    const modernPattern = /^BS\d{2}[A-Z]{2}$/;
-    const oldPattern = /^\d{4}AO$/;
+    const routes = new Set();
 
     for (const entity of feed.entity) {
 
       if (!entity.vehicle) continue;
 
-      const id = entity.vehicle.vehicle?.id;
+      const route = entity.vehicle.trip?.routeId;
 
-      if (!id) continue;
-
-      const clean = id.trim().toUpperCase();
-
-      if (modernPattern.test(clean) || oldPattern.test(clean)) {
-
-        normalRegos.push(clean);
-
-      } else {
-
-        anomalies.push({
-          id: clean,
-          route: entity.vehicle.trip?.routeId,
-          tripId: entity.vehicle.trip?.tripId,
-          latitude: entity.vehicle.position?.latitude,
-          longitude: entity.vehicle.position?.longitude
-        });
-
-      }
+      if (route) routes.add(route);
 
     }
 
     res.json({
-      totalVehicles: feed.entity.length,
-      normalRegosDetected: normalRegos.length,
-      anomaliesDetected: anomalies.length,
-      anomalies
+      totalRoutes: routes.size,
+      routes: Array.from(routes).sort()
     });
 
   } catch (err) {
 
     console.error(err);
-    res.status(500).json({ error: "scan_failed" });
+    res.status(500).json({ error: "route_scan_failed" });
 
   }
 
